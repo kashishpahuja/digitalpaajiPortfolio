@@ -7,7 +7,7 @@ export default function AboutSection({ darkTheme = false }) {
     <section 
       id="about" 
       className={`relative min-h-screen flex flex-col items-center justify-center text-center w-full py-24 px-6 sm:px-12 md:px-20 transition-colors duration-500 overflow-hidden ${
-        darkTheme ? 'bg-black text-white' : 'bg-white text-neutral-900'
+        darkTheme ? 'bg-[#0A0A0A] text-white' : 'bg-white text-neutral-900'
       }`}
     >
       {/* Ferrofluid WebGL Background Layer */}
@@ -52,19 +52,23 @@ export default function AboutSection({ darkTheme = false }) {
             Whether through advanced SEO, cutting-edge web design, or impactful social media campaigns, we build digital assets that let your work speak for itself without getting in the way.
           </p>
 
-          {/* Action / Callout element */}
-          <div className="pt-4 flex items-center mx-auto space-x-4">
-            <a 
-              href="#contact"
-              className={`inline-flex items-center justify-center px-6 py-3 rounded-full font-medium transition-all duration-300 shadow-lg ${
-                darkTheme 
-                  ? 'bg-white text-black hover:bg-neutral-200' 
-                  : 'bg-black text-white hover:bg-neutral-800'
-              }`}
-            >
-              Start a Project
-            </a>
-          </div>
+     <a
+  href="#contact"
+  className={`cursor-pointer font-medium group inline-flex items-center justify-center px-8 py-4 rounded-full transition-all duration-300 shadow-lg w-fit mx-auto ${
+    darkTheme
+      ? 'bg-white text-black hover:bg-neutral-200'
+      : 'bg-black text-white hover:bg-neutral-800'
+  }`}
+>
+  <div className="relative overflow-hidden h-6 leading-6">
+    <p className="group-hover:-translate-y-6 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+      Start a Project
+    </p>
+    <p className="absolute top-6 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+      Start a Project
+    </p>
+  </div>
+</a>
         </div>
 
       </div>

@@ -112,7 +112,7 @@ export default function Hero({ darkTheme, setDarkTheme }) {
             perspective={900}
             autoOrbit
             orbitSpeed={0.25}
-            fontSize="clamp(3rem, 10vw, 12rem)"
+            fontSize="clamp(3rem, 10vw, 10rem)"
             fontWeight={900}
             shadow
           />
@@ -131,7 +131,7 @@ export default function Hero({ darkTheme, setDarkTheme }) {
             perspective={900}
             autoOrbit
             orbitSpeed={0.25}
-            fontSize="clamp(3rem, 10vw, 11rem)"
+            fontSize="clamp(3rem, 10vw, 10rem)"
             fontWeight={900}
             shadow
           />
