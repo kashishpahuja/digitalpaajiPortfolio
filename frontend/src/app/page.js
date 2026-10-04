@@ -5,6 +5,8 @@ import AboutSection from "../components/AboutSection";
 import CustomCursor from "../components/CustomCursor";
 import FeaturedProjects from '../components/FeaturedProjects'
 import Footer from '@/components/Footer';
+import Gallary from '@/components/Gallary';
+
 
 export default function Home() {
   const [darkTheme, setDarkTheme] = useState(false);
@@ -16,6 +18,7 @@ export default function Home() {
 
       {/* Hero / Banner with toggle handler */}
       <Hero darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
+     <Gallary/>
 
       {/* About Section sharing the exact same darkTheme state */}
       <AboutSection darkTheme={darkTheme} />

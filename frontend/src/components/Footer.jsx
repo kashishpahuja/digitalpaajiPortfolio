@@ -284,7 +284,7 @@ export default function Footer({ darkTheme = false }) {
             mouse={0.2}
             strength={0.15}
             relaxation={0.9}
-            className="w-full h-full opacity-75"
+            className="w-full h-full opacity-45"
           />
         </div>
 
@@ -319,10 +319,10 @@ export default function Footer({ darkTheme = false }) {
 
         {/* Bottom copyright info inside the banner */}
         <div className="relative z-10 max-w-7xl mx-auto w-full pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-white/40">
-          <p>© {new Date().getFullYear()} Studio Plinth. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Digital Paaji. All rights reserved.</p>
           <div className="flex space-x-6">
-            <a href="/privacy" className="hover:underline">Privacy Policy</a>
-            <a href="/terms" className="hover:underline">Terms of Service</a>
+            <a href="/digitalpaaji.com" className="hover:underline">Digital Paaji</a>
+            <a href="/digitalpaajiacademy.com" className="hover:underline">DP Academy</a>
           </div>
         </div>
       </div>

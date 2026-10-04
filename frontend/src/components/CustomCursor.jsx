@@ -27,9 +27,9 @@ export default function CustomCursor({ darkTheme = false }) {
   return (
     <div
       className={`fixed pointer-events-none z-50 rounded-full transition-transform duration-100 ease-out ${
-        darkTheme ? 'bg-white' : 'bg-black'
+        darkTheme ? 'bg-white' : 'bg-black/70'
       } ${
-        isPointer ? 'w-6 h-6 -translate-x-3 -translate-y-3 opacity-60' : 'w-3 h-3 -translate-x-1.5 -translate-y-1.5 opacity-100'
+        isPointer ? 'w-10 h-10 -translate-x-3 -translate-y-3 opacity-60 backdrop-blur-xl transition-all duration-500' : 'transition-all duration-500 w-3 h-3 -translate-x-1.5 -translate-y-1.5 opacity-100'
       }`}
       style={{
         left: `${position.x}px`,
