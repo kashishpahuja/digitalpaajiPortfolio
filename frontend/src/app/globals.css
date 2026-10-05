@@ -16,24 +16,29 @@
 box-sizing: border-box;
 }
 
-html.lenis, html.lenis body {
-height: auto;
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+html {
+  scroll-behavior: auto !important;
 }
 
 .lenis.lenis-smooth {
-scroll-behavior: auto !important;
+  scroll-behavior: auto !important;
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
-overscroll-behavior: contain;
+  overscroll-behavior: contain;
 }
 
 .lenis.lenis-stopped {
-overflow: hidden;
+  overflow: hidden;
 }
 
 .lenis.lenis-scrolling iframe {
-pointer-events: none;
+  pointer-events: none;
 }
 
 body {
@@ -41,6 +46,7 @@ background-color: var(--bg-color);
 color: var(--text-main);
 font-family: 'Space Grotesk', 'Inter', sans-serif;
 overflow-x: hidden;
+overscroll-behavior: none;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 selection-background-color: #111111;

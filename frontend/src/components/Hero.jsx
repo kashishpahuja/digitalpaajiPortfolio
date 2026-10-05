@@ -42,7 +42,7 @@ export default function Hero({ darkTheme, setDarkTheme }) {
           </a>
           
           {/* Uiverse Slide Hover Effect Button: Contact Us */}
-          <a href="#contact" className="cursor-pointer font-medium group inline-block">
+          <a href="https://digitalpaaji.com/contact" className="cursor-pointer font-medium group inline-block">
             <div className="relative overflow-hidden h-6">
               <p className="group-hover:-translate-y-6 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
                 Contact Us
@@ -53,17 +53,6 @@ export default function Hero({ darkTheme, setDarkTheme }) {
             </div>
           </a>
 
-          {/* Uiverse Slide Hover Effect Button: Menu */}
-          <button className="cursor-pointer font-medium group inline-block">
-            <div className="relative overflow-hidden h-6">
-              <p className="group-hover:-translate-y-6 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
-                Menu
-              </p>
-              <p className="absolute top-6 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
-                Menu
-              </p>
-            </div>
-          </button>
         </nav>
 
         {/* Mobile Menu Button & Theme Toggle */}
@@ -100,41 +89,41 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       {/* Hero Section with DepthText & Slide-Up Load Animation */}
       <main className="flex flex-col items-center justify-center text-center my-auto z-10 py-12">
         <div className="animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:200ms]">
-          <DepthText
-            text="Put Your Work"
-            layers={24}
-            depth={1.8}
-            faceColor={darkTheme ? "#f8fafc" : "#111827"}
-            depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
-            tilt={5.0}
-            pointerTracking
-            smoothing={0.14}
-            perspective={900}
-            autoOrbit
-            orbitSpeed={0.25}
-            fontSize="clamp(3rem, 10vw, 10rem)"
-            fontWeight={900}
-            shadow
-          />
+        <DepthText
+  text="Put Your Work"
+  layers={10}
+  depth={1.5}
+  faceColor={darkTheme ? "#f8fafc" : "#111827"}
+  depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
+  tilt={5}
+  pointerTracking
+  smoothing={0.2}
+  perspective={900}
+  autoOrbit
+  orbitSpeed={0.15}
+  fontSize="clamp(3rem, 10vw, 10rem)"
+  fontWeight={900}
+  shadow
+/>
         </div>
 
         <div className="animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
-          <DepthText
-            text="in Motion."
-            layers={24}
-            depth={1.8}
-            faceColor={darkTheme ? "#f8fafc" : "#111827"}
-            depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
-            tilt={5.0}
-            pointerTracking
-            smoothing={0.14}
-            perspective={900}
-            autoOrbit
-            orbitSpeed={0.25}
-            fontSize="clamp(3rem, 10vw, 10rem)"
-            fontWeight={900}
-            shadow
-          />
+       <DepthText
+  text="in Motion."
+  layers={10}
+  depth={1.5}
+  faceColor={darkTheme ? "#f8fafc" : "#111827"}
+  depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
+  tilt={5}
+  pointerTracking
+  smoothing={0.2}
+  perspective={900}
+  autoOrbit
+  orbitSpeed={0.15}
+  fontSize="clamp(3rem, 10vw, 10rem)"
+  fontWeight={900}
+  shadow
+/>
         </div>
       </main>
 

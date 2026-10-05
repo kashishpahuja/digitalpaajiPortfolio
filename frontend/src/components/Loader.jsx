@@ -144,7 +144,7 @@ const GrainientCanvas = ({
       webgl: 2,
       alpha: true,
       antialias: false,
-      dpr: Math.min(window.devicePixelRatio || 1, 2)
+      dpr: Math.min(window.devicePixelRatio || 1, 1.25)
     });
 
     const gl = renderer.gl;
@@ -207,11 +207,25 @@ const GrainientCanvas = ({
     let raf = 0;
     const t0 = performance.now();
 
-    const loop = t => {
-      program.uniforms.iTime.value = (t - t0) * 0.001;
-      renderer.render({ scene: mesh });
-      raf = requestAnimationFrame(loop);
-    };
+const FPS = 30;
+const frameDuration = 1000 / FPS;
+
+let lastFrame = 0;
+
+const loop = (time) => {
+  if (time - lastFrame >= frameDuration) {
+    lastFrame = time;
+
+    program.uniforms.iTime.value =
+      (time - t0) * 0.001;
+
+    renderer.render({
+      scene: mesh,
+    });
+  }
+
+  raf = requestAnimationFrame(loop);
+};
 
     raf = requestAnimationFrame(loop);
 
@@ -230,40 +244,54 @@ export default function PageLoader() {
   const [loading, setLoading] = useState(true);
   const [animatingOut, setAnimatingOut] = useState(false);
 
-  useEffect(() => {
-    // Trigger slide-up exit transition after 1.2 seconds on page load
-    const timer = setTimeout(() => {
-      setAnimatingOut(true);
-      // Fully remove from DOM after the transition completes (0.8s)
-      const removeTimer = setTimeout(() => {
-        setLoading(false);
-      }, 800);
-      return () => clearTimeout(removeTimer);
-    }, 1200);
+useEffect(() => {
+  const timer = setTimeout(() => {
+    setAnimatingOut(true);
 
-    return () => clearTimeout(timer);
-  }, []);
+    const removeTimer = setTimeout(() => {
+      setLoading(false);
+    }, 650);
+
+    return () => clearTimeout(removeTimer);
+  }, 650);
+
+  return () => clearTimeout(timer);
+}, []);
 
   if (!loading) return null;
 
   return (
-    <div
-      className={`fixed inset-0 z-50 flex items-center justify-center overflow-hidden transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] ${
-        animatingOut ? '-translate-y-full' : 'translate-y-0'
-      }`}
-    >
-      {/* Grainient Shader Background */}
-      <GrainientCanvas />
+<div
+  className={`
+    fixed inset-0 z-9999
+    flex items-center justify-center
+    overflow-hidden
+    bg-[#0e072b]
+    transition-transform
+    duration-700
+    ease-[cubic-bezier(0.76,0,0.24,1)]
+    ${
+      animatingOut
+        ? '-translate-y-full'
+        : 'translate-y-0'
+    }
+  `}
+>
+  {/* Instant background fallback */}
+  <div className="absolute inset-0 bg-linear-to-br from-[#1e124f] via-[#0e072b] to-[#a26363]" />
 
-      {/* Dark tint overlay */}
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] pointer-events-none" />
+  {/* WebGL */}
+  <GrainientCanvas />
 
-      {/* Loader Content */}
-      <div className="relative z-10 text-center text-white px-6">
-           <strong className={`font-extrabold tracking-tight text-lg text-white`}>Digital Paaji</strong>
-          
-      
-      </div>
-    </div>
+  {/* Lightweight overlay */}
+  <div className="absolute inset-0 bg-black/25 pointer-events-none" />
+
+  {/* Content */}
+  <div className="relative z-10 text-center text-white px-6">
+    <strong className="font-extrabold tracking-tight text-lg">
+      Digital Paaji
+    </strong>
+  </div>
+</div>
   );
 }
