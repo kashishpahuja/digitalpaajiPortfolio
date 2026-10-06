@@ -154,9 +154,9 @@ export default function VideoPresentationsDetail() {
             scrollStart="top 90%"
             scrollEnd="bottom 40%"
             stagger={0.03}
-            textClassName={`text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
+            textClassName={`text-4xl md:text-7xl lg:text-8xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
           >
-            {presentationProjectData.title}
+           Video Presentation
           </ScrollFloat>
         </div>
 

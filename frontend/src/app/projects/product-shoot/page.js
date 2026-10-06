@@ -625,7 +625,7 @@ export default function ProjectDetail() {
 
       {/* Hero Header Section */}
       <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">
-        <div className="flex items-center space-x-4 text-sm uppercase tracking-widest opacity-60 mb-6 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:100ms]">
+        <div className="flex items-center space-x-4 text-sm uppercase tracking-widest opacity-60 mb-6 animate-slide-up [animation-fill-mode:forwards] [animation-delay:100ms]">
           <span>{project?.category}</span>
           <span>•</span>
           <span>{project?.year}</span>
