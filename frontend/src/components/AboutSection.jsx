@@ -53,7 +53,7 @@ export default function AboutSection({ darkTheme = false }) {
           </p>
 
      <a
-  href="#contact"
+  href="https://digitalpaaji.com/contact"
   className={`cursor-pointer font-medium group inline-flex items-center justify-center px-8 py-4 rounded-full transition-all duration-300 shadow-lg w-fit mx-auto ${
     darkTheme
       ? 'bg-white text-black hover:bg-neutral-200'

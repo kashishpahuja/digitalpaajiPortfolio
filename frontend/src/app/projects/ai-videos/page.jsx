@@ -24,7 +24,7 @@ const projectDataMap = {
     year: '2026',
     role: 'Creative Direction & AI Pipeline',
     description: 'We built a custom generative pipeline blending real-time neural upscaling with cinematic color grading. The result is a series of immersive visual pieces that merge artificial intelligence with human emotional depth.',
-    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80',
+    coverImage: "/Images/portfolio/ai/cover.gif",
     // Embedded full gallery collection matching your AiVideo requirements
     gallery: [
       { type: "video", url: "https://www.youtube.com/embed/UUgI6MUVAGM", thumb: "daf2.webp" },
@@ -42,79 +42,16 @@ const projectDataMap = {
       { type: "video", url: "https://www.youtube.com/embed/ag_jFaBbAlM", thumb: "spd.webp" },
       { type: "video", url: "https://www.youtube.com/embed/RwuK_SGYljU", thumb: "ai3.webp" },
       { type: "video", url: "https://www.youtube.com/embed/WXy49BMkS0U", thumb: "muraga1.webp" },
-      { type: "video", url: "https://www.youtube.com/embed/mARWXpzxcHI", client: "fleetx", thumb: "fleetx3.webp" },
+      { type: "video", url: "https://www.youtube.com/embed/mARWXpzxcHI", thumb: "fleetx3.webp" },
       { type: "video", url: "https://www.youtube.com/embed/A67jLML8c6Y", thumb: "saajriwaj2.webp" },
-      { type: "video", url: "https://www.youtube.com/embed/kAsUuGOfO6Q", thumb: "murgi1.webp" },
-      { type: "video", url: "https://www.youtube.com/embed/7xCRhzA8ICc", thumb: "saajriwaj3.webp" },
-      { type: "video", url: "https://www.youtube.com/embed/n1srsLG02_Q", thumb: "canco1.webp" },
+      {type:"video",url:"https://www.youtube.com/embed/kAsUuGOfO6Q",thumb:"murgi1.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/7xCRhzA8ICc",thumb:"saajriwaj3.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/n1srsLG02_Q",thumb:"canco1.webp"},
     ]
   },
-  'video-presentations': {
-    title: 'Video Presentations',
-    subtitle: 'High-impact dynamic cinematic pitch reels designed to command attention.',
-    category: 'Pitch & Brand Films',
-    client: 'Nexus Ventures',
-    year: '2026',
-    role: 'Motion Design & Directing',
-    description: 'Designed for high-stakes investor keynotes, this piece utilizes minimal typography styling, rhythm-driven editing, and depth-based camera choreography to turn technical data into a compelling brand journey.',
-    coverImage: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1600&q=80',
-    gallery: [
-      { type: "image", url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80" },
-      { type: "image", url: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1400&q=80" }
-    ]
-  },
-  'animation': {
-    title: 'Animation',
-    subtitle: 'Fluid 3D sculptures and procedural motion systems crafted in real-time.',
-    category: '3D Motion Graphics',
-    client: 'Kinetix Studio',
-    year: '2025',
-    role: '3D Simulation & Shaders',
-    description: 'An experimental study in fluid dynamics and ferrofluid behavior. We created custom procedural shaders in WebGL and rendered photorealistic 3D compositions for digital installations.',
-    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80',
-    gallery: [
-      { type: "image", url: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=80" }
-    ]
-  },
-  'product-shoot': {
-    title: 'Product Shoot',
-    subtitle: 'Minimalist commercial photography and cinematic lighting for luxury items.',
-    category: 'Commercial Direction',
-    client: 'Aura Lifestyle',
-    year: '2025',
-    role: 'Art Direction & Cinematography',
-    description: 'A meticulous exploration of texture, form, and shadow. Using hard architectural lighting and organic props, we crafted a high-end visual identity that elevates everyday physical goods.',
-    coverImage: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1600&q=80',
-    gallery: [
-      { type: "image", url: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1400&q=80" }
-    ]
-  },
-  'website-ui-ux': {
-    title: 'Website UI/UX',
-    subtitle: 'Immersive web experiences driven by expressive interaction and bespoke typography.',
-    category: 'Digital Experience',
-    client: 'Vanguard Tech',
-    year: '2026',
-    role: 'UI/UX Design & Full-Stack Build',
-    description: 'Reimagining corporate digital presence through custom WebGL shaders, fluid page transitions, and ultra-clean responsive layouts that convert curious visitors into dedicated brand advocates.',
-    coverImage: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80',
-    gallery: [
-      { type: "image", url: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1400&q=80" }
-    ]
-  },
-  'bni': {
-    title: 'BNI',
-    subtitle: 'Global convention campaign graphics, stage design, and digital rollout.',
-    category: 'Global Convention Campaign',
-    client: 'BNI Enterprise',
-    year: '2025',
-    role: 'Brand Strategy & Multimedia',
-    description: 'A massive visual identity system built for international audiences. We coordinated live stage graphics, motion packages, and print collateral that united over 10,000 global business leaders.',
-    coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1600&q=80',
-    gallery: [
-      { type: "image", url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80" }
-    ]
-  }
+
+
+
 };
 
 export default function ProjectDetail() {
@@ -186,25 +123,30 @@ export default function ProjectDetail() {
     <div className={`min-h-screen transition-colors duration-500 ${darkTheme ? 'bg-black text-white' : 'bg-white text-neutral-900'}`}>
       
       {/* Top Navigation Bar */}
-      <header className="flex items-center justify-between w-full  px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-8 z-20">
-        <Link href="/" className="font-bold text-2xl tracking-tighter cursor-pointer">
-          Digital Paaji
-        </Link>
+     {/* Top Navigation Bar */}
+<header className="flex items-center justify-between w-full px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-8 z-20">
+  <Link href="/" className="flex items-center cursor-pointer">
+    <img 
+      src={darkTheme ? "/logoWhite.webp" : "/logo2.webp"} 
+      alt="Digital Paaji Logo" 
+      className="h-12 md:h-[80px] w-auto object-contain transition-opacity duration-300" 
+    />
+  </Link>
 
-        <div className="flex items-center space-x-6">
-          <button 
-            onClick={() => setDarkTheme(!darkTheme)}
-            className={`w-12 h-6 flex items-center rounded-full p-1 transition-colors duration-300 ${darkTheme ? 'bg-white' : 'bg-neutral-900'}`}
-            aria-label="Toggle Theme"
-          >
-            <div className={`bg-neutral-200 w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${darkTheme ? 'translate-x-6 bg-neutral-900' : 'translate-x-0'}`} />
-          </button>
-          
-          <Link href="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
-            ← Back Home
-          </Link>
-        </div>
-      </header>
+  <div className="flex items-center space-x-6">
+    <button 
+      onClick={() => setDarkTheme(!darkTheme)}
+      className={`w-12 h-6 flex items-center rounded-full p-1 transition-colors duration-300 ${darkTheme ? 'bg-white' : 'bg-neutral-900'}`}
+      aria-label="Toggle Theme"
+    >
+      <div className={`bg-neutral-200 w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${darkTheme ? 'translate-x-6 bg-neutral-900' : 'translate-x-0'}`} />
+    </button>
+    
+    <Link href="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
+      ← Back Home
+    </Link>
+  </div>
+</header>
 
       {/* Hero Header Section */}
       <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">

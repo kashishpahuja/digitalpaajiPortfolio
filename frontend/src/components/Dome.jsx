@@ -25,37 +25,248 @@ const projectDataMap = {
       {
         name: 'All',
         items: [
-          { src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1400&q=80", alt: "Gallery 1", title: "Item 1" },
-          { src: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=80", alt: "Gallery 2", title: "Item 2" },
-          { src: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=900&q=80", alt: 'Restaurant Interior', title: 'Restaurant', subtitle: 'Interior' },
-          { src: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=900&q=80", alt: 'Gold Necklace', title: 'Jewellery', subtitle: 'Collection' },
-          { src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&q=80", alt: 'Club Vibe', title: 'Clubs', subtitle: 'Nightlife' },
-          { src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=900&q=80", alt: 'YouTube Thumbnail', title: 'YT Thumbnails', subtitle: 'Design' },
-          { src: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=900&q=80", alt: 'Visiting Card', title: 'Visiting Cards', subtitle: 'Branding' },
-          { src: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=900&q=80", alt: 'Packaging Box', title: 'Packaging Designs', subtitle: 'Commercial' },
-          { src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=900&q=80", alt: 'Logo & Brochure', title: 'Logo/Brochure/Catalogue', subtitle: 'Corporate' }
+          { type: "image", url: "/Images/work/1.gif", alt: "All Item 1", title: "All Item 1" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/1.gif", alt: "Restaurant GIF", title: "Restaurant GIF" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/0.webp", alt: "Restaurant 0", title: "Restaurant 0" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/18.webp", alt: "Restaurant 18", title: "Restaurant 18" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/19.webp", alt: "Restaurant 19", title: "Restaurant 19" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/20.webp", alt: "Restaurant 20", title: "Restaurant 20" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/6.webp", alt: "Restaurant 6", title: "Restaurant 6" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants8.webp", alt: "Restaurants 8", title: "Restaurants 8" },
+          { type: "image", url: "/Images/portfolio/graphic/21.webp", alt: "Graphic 21", title: "Graphic 21" },
+          { type: "image", url: "/Images/portfolio/graphic/15.webp", alt: "Graphic 15", title: "Graphic 15" },
+          { type: "image", url: "/Images/portfolio/graphic/14.webp", alt: "Graphic 14", title: "Graphic 14" },
+          { type: "image", url: "/Images/portfolio/graphic/22.webp", alt: "Graphic 22", title: "Graphic 22" },
+          { type: "image", url: "/Images/portfolio/graphic/16.webp", alt: "Graphic 16", title: "Graphic 16" },
+          { type: "image", url: "/Images/portfolio/graphic/13.webp", alt: "Graphic 13", title: "Graphic 13" },
+          { type: "image", url: "/Images/portfolio/graphic/9.webp", alt: "Graphic 9", title: "Graphic 9" },
+          { type: "image", url: "/Images/portfolio/graphic/6.webp", alt: "Graphic 6", title: "Graphic 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/24.webp", alt: "Product 24", title: "Product 24" },
+          { type: "image", url: "/Images/portfolio/graphic/product/26.webp", alt: "Product 26", title: "Product 26" },
+          { type: "image", url: "/Images/portfolio/graphic/product/11.webp", alt: "Product 11", title: "Product 11" },
+          { type: "image", url: "/Images/portfolio/graphic/product/12.webp", alt: "Product 12", title: "Product 12" },
+          { type: "image", url: "/Images/portfolio/graphic/product/23.webp", alt: "Product 23", title: "Product 23" }
         ]
       },
       {
         name: 'Jewellery',
         items: [
-          { src: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=900&q=80', alt: 'Gold Necklace', title: 'Aurelia', subtitle: 'Fine Jewelry' },
-          { src: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=80', alt: 'Diamond Ring', title: 'Solitaire', subtitle: 'Rings' },
-          { src: 'https://images.unsplash.com/photo-1611591475871-2ee8ab22209d?w=900&q=80', alt: 'Gold Earrings', title: 'Cascades', subtitle: 'Earrings' },
-          { src: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&q=80', alt: 'Luxury Bracelet', title: 'Bangle', subtitle: 'Accessories' }
+          { type: "image", url: "/Images/portfolio/graphic/product/25.webp", alt: "Jewellery 25", title: "Jewellery Item" },
+          { type: "image", url: "/Images/portfolio/graphic/product/product5.webp", alt: "Product 5", title: "Product 5" },
+          { type: "image", url: "/Images/portfolio/graphic/product/product4.webp", alt: "Product 4", title: "Product 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/product6.webp", alt: "Product 6", title: "Product 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j1.webp", alt: "Jewellery 1", title: "Jewellery 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j2.webp", alt: "Jewellery 2", title: "Jewellery 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j3.webp", alt: "Jewellery 3", title: "Jewellery 3" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j6.webp", alt: "Jewellery 6", title: "Jewellery 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j7.webp", alt: "Jewellery 7", title: "Jewellery 7" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j4.webp", alt: "Jewellery 4", title: "Jewellery 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j8.webp", alt: "Jewellery 8", title: "Jewellery 8" },
+          { type: "image", url: "/Images/portfolio/graphic/product/j5.webp", alt: "Jewellery 5", title: "Jewellery 5" }
         ]
       },
       {
         name: 'Clubs',
         items: [
-          { src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&q=80', alt: 'Lounge Seating', title: 'Lounge Vibe', subtitle: 'Atmosphere' },
-          { src: 'https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=900&q=80', alt: 'Bar Counter', title: 'Nightclub Bar', subtitle: 'Lighting' },
-          { src: 'https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=900&q=80', alt: 'DJ Floor', title: 'Dance Floor', subtitle: 'Energy' }
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/0.webp", alt: "Club 0", title: "Club Graphic" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/18.webp", alt: "Club 18", title: "Club Graphic" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/19.webp", alt: "Club 19", title: "Club Graphic" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/20.webp", alt: "Club 20", title: "Club Graphic" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/club1.webp", alt: "Club 1", title: "Club 1" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/club2.webp", alt: "Club 2", title: "Club 2" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/club3.webp", alt: "Club 3", title: "Club 3" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/club4.webp", alt: "Club 4", title: "Club 4" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/club5.webp", alt: "Club 5", title: "Club 5" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants2.webp", alt: "Restaurants 2", title: "Restaurants 2" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants8.webp", alt: "Restaurants 8", title: "Restaurants 8" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/1.gif", alt: "Club GIF", title: "Club GIF" }
+        ]
+      },
+      {
+        name: 'YT Thumbnails',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/thumbnails/1.webp", alt: "Thumbnail 1", title: "YT Thumbnail 1" },
+          { type: "image", url: "/Images/portfolio/graphic/thumbnails/2.webp", alt: "Thumbnail 2", title: "YT Thumbnail 2" },
+          { type: "image", url: "/Images/portfolio/graphic/thumbnails/3.webp", alt: "Thumbnail 3", title: "YT Thumbnail 3" },
+          { type: "image", url: "/Images/portfolio/graphic/thumbnails/4.webp", alt: "Thumbnail 4", title: "YT Thumbnail 4" },
+          { type: "image", url: "/Images/portfolio/graphic/thumbnails/5.webp", alt: "Thumbnail 5", title: "YT Thumbnail 5" }
+        ]
+      },
+      {
+        name: 'Visiting Cards',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/10.webp", alt: "Visiting Card 10", title: "Visiting Card" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/surveksha.webp", alt: "Surveksha Visiting Card", title: "Surveksha" },
+          { type: "image", url: "/Images/portfolio/graphic/label/11.webp", alt: "Label 11", title: "Card Label" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/1.webp", alt: "Visiting Card 1", title: "Visiting Card 1" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/ibanta.webp", alt: "Ibanta Card", title: "Ibanta" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/4.webp", alt: "Visiting Card 4", title: "Visiting Card 4" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/6.webp", alt: "Visiting Card 6", title: "Visiting Card 6" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/7.webp", alt: "Visiting Card 7", title: "Visiting Card 7" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/royalpalm.webp", alt: "Royal Palm Card", title: "Royal Palm" },
+          { type: "image", url: "/Images/portfolio/graphic/visitingcard/santosh.webp", alt: "Santosh Card", title: "Santosh" }
+        ]
+      },
+      {
+        name: 'Packaging Designs',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/packaging/6.webp", alt: "Packaging 6", title: "Packaging 6" },
+          { type: "image", url: "/Images/portfolio/graphic/label/p2.webp", alt: "Label p2", title: "Label p2" },
+          { type: "image", url: "/Images/portfolio/graphic/label/p3.webp", alt: "Label p3", title: "Label p3" },
+          { type: "image", url: "/Images/portfolio/graphic/packaging/5.webp", alt: "Packaging 5", title: "Packaging 5" },
+          { type: "image", url: "/Images/portfolio/graphic/label/p1.webp", alt: "Label p1", title: "Label p1" },
+          { type: "image", url: "/Images/portfolio/graphic/label/9.webp", alt: "Label 9", title: "Label 9" },
+          { type: "image", url: "/Images/portfolio/graphic/label/12.webp", alt: "Label 12", title: "Label 12" },
+          { type: "image", url: "/Images/portfolio/graphic/label/13.webp", alt: "Label 13", title: "Label 13" },
+          { type: "image", url: "/Images/portfolio/graphic/label/14.webp", alt: "Label 14", title: "Label 14" },
+          { type: "image", url: "/Images/portfolio/graphic/label/packaging1.webp", alt: "Packaging 1", title: "Packaging 1" },
+          { type: "image", url: "/Images/portfolio/graphic/label/packaging2.webp", alt: "Packaging 2", title: "Packaging 2" },
+          { type: "image", url: "/Images/portfolio/graphic/label/packaging3.webp", alt: "Packaging 3", title: "Packaging 3" },
+          { type: "image", url: "/Images/portfolio/graphic/packaging/4.webp", alt: "Packaging 4", title: "Packaging 4" },
+          { type: "image", url: "/Images/portfolio/graphic/label/label6.webp", alt: "Label 6", title: "Label 6" }
+        ]
+      },
+      {
+        name: 'Logo/Brochure/Catalogue',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/product/saajriwaaj.webp", alt: "Saajriwaaj", title: "Saajriwaaj" },
+          { type: "image", url: "/Images/portfolio/graphic/label/daf.webp", alt: "DAF", title: "DAF" },
+          { type: "image", url: "/Images/portfolio/graphic/label/surveksha.webp", alt: "Surveksha", title: "Surveksha" },
+          { type: "image", url: "/Images/portfolio/graphic/label/prodsol.webp", alt: "Prodsol", title: "Prodsol" },
+          { type: "image", url: "/Images/portfolio/graphic/label/10.webp", alt: "Label 10", title: "Label 10" },
+          { type: "image", url: "/Images/portfolio/graphic/label/logo.webp", alt: "Logo", title: "Logo" },
+          { type: "image", url: "/Images/portfolio/graphic/label/label5.webp", alt: "Label 5", title: "Label 5" },
+          { type: "image", url: "/Images/portfolio/graphic/label/logo1.webp", alt: "Logo 1", title: "Logo 1" },
+          { type: "image", url: "/Images/portfolio/graphic/label/cover.webp", alt: "Cover", title: "Cover" },
+          { type: "image", url: "/Images/portfolio/graphic/label/cover1.webp", alt: "Cover 1", title: "Cover 1" }
+        ]
+      },
+      {
+        name: 'Restaurant',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/6.webp", alt: "Restaurant 6", title: "Restaurant 6" },
+          { type: "image", url: "/Images/portfolio/graphic/food/3.webp", alt: "Food 3", title: "Food 3" },
+          { type: "image", url: "/Images/portfolio/graphic/food/Restaurants4.webp", alt: "Restaurants 4", title: "Restaurants 4" },
+          { type: "image", url: "/Images/portfolio/graphic/food/Restaurants3.webp", alt: "Restaurants 3", title: "Restaurants 3" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants1.webp", alt: "Restaurants 1", title: "Restaurants 1" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants10.webp", alt: "Restaurants 10", title: "Restaurants 10" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants3.webp", alt: "Restaurants 3 Alt", title: "Restaurants 3" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants4.webp", alt: "Restaurants 4 Alt", title: "Restaurants 4" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants5.webp", alt: "Restaurants 5", title: "Restaurants 5" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants6.webp", alt: "Restaurants 6", title: "Restaurants 6" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants7.webp", alt: "Restaurants 7", title: "Restaurants 7" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants9.webp", alt: "Restaurants 9", title: "Restaurants 9" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants11.webp", alt: "Restaurants 11", title: "Restaurants 11" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants12.webp", alt: "Restaurants 12", title: "Restaurants 12" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants13.webp", alt: "Restaurants 13", title: "Restaurants 13" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/Restaurants14.webp", alt: "Restaurants 14", title: "Restaurants 14" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/daawath1.webp", alt: "Daawath 1", title: "Daawath 1" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/daawath2.webp", alt: "Daawath 2", title: "Daawath 2" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/daawath3.webp", alt: "Daawath 3", title: "Daawath 3" }
+        ]
+      },
+      {
+        name: 'Products',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/product/sr.webp", alt: "SR", title: "SR Product" },
+          { type: "image", url: "/Images/portfolio/graphic/product/2kahumbo.webp", alt: "Kahumbo 2", title: "Kahumbo 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/3kahumbo.webp", alt: "Kahumbo 3", title: "Kahumbo 3" },
+          { type: "image", url: "/Images/portfolio/graphic/product/4kahumbo.webp", alt: "Kahumbo 4", title: "Kahumbo 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/mubasa1.webp", alt: "Mubasa 1", title: "Mubasa 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/mubasa2.webp", alt: "Mubasa 2", title: "Mubasa 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/1kahumbo.webp", alt: "Kahumbo 1", title: "Kahumbo 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/mubasa3.webp", alt: "Mubasa 3", title: "Mubasa 3" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi1.webp", alt: "Murgi 1", title: "Murgi 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi2.webp", alt: "Murgi 2", title: "Murgi 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/ibnta1.webp", alt: "Ibnta 1", title: "Ibnta 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/liqa1.webp", alt: "Liqa 1", title: "Liqa 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/liqa2.webp", alt: "Liqa 2", title: "Liqa 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/liqa5.webp", alt: "Liqa 5", title: "Liqa 5" },
+          { type: "image", url: "/Images/portfolio/graphic/product/liqa6.webp", alt: "Liqa 6", title: "Liqa 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/liqa7.webp", alt: "Liqa 7", title: "Liqa 7" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco1.webp", alt: "Canco 1", title: "Canco 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco2.webp", alt: "Canco 2", title: "Canco 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco3.webp", alt: "Canco 3", title: "Canco 3" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi6.webp", alt: "Murgi 6", title: "Murgi 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/daf4.webp", alt: "DAF 4", title: "DAF 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/daf5.webp", alt: "DAF 5", title: "DAF 5" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco4.webp", alt: "Canco 4", title: "Canco 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo1.webp", alt: "Kumbo 1", title: "Kumbo 1" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo2.webp", alt: "Kumbo 2", title: "Kumbo 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo3.webp", alt: "Kumbo 3", title: "Kumbo 3" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo4.webp", alt: "Kumbo 4", title: "Kumbo 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo5.webp", alt: "Kumbo 5", title: "Kumbo 5" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo6.webp", alt: "Kumbo 6", title: "Kumbo 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo7.webp", alt: "Kumbo 7", title: "Kumbo 7" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi7.webp", alt: "Murgi 7", title: "Murgi 7" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi8.webp", alt: "Murgi 8", title: "Murgi 8" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi9.webp", alt: "Murgi 9", title: "Murgi 9" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi10.webp", alt: "Murgi 10", title: "Murgi 10" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi11.webp", alt: "Murgi 11", title: "Murgi 11" },
+          { type: "image", url: "/Images/portfolio/graphic/product/murgi12.webp", alt: "Murgi 12", title: "Murgi 12" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco5.webp", alt: "Canco 5", title: "Canco 5" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco6.webp", alt: "Canco 6", title: "Canco 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco7.webp", alt: "Canco 7", title: "Canco 7" },
+          { type: "image", url: "/Images/portfolio/graphic/product/canco8.webp", alt: "Canco 8", title: "Canco 8" },
+          { type: "image", url: "/Images/portfolio/graphic/product/ibnta2.webp", alt: "Ibnta 2", title: "Ibnta 2" },
+          { type: "image", url: "/Images/portfolio/graphic/product/ibnta3.webp", alt: "Ibnta 3", title: "Ibnta 3" },
+          { type: "image", url: "/Images/portfolio/graphic/product/ibnta4.webp", alt: "Ibnta 4", title: "Ibnta 4" },
+          { type: "image", url: "/Images/portfolio/graphic/product/ibnta5.webp", alt: "Ibnta 5", title: "Ibnta 5" },
+          { type: "image", url: "/Images/portfolio/graphic/product/daf6.webp", alt: "DAF 6", title: "DAF 6" },
+          { type: "image", url: "/Images/portfolio/graphic/product/daf7.webp", alt: "DAF 7", title: "DAF 7" },
+          { type: "image", url: "/Images/portfolio/graphic/product/daf8.webp", alt: "DAF 8", title: "DAF 8" },
+          { type: "image", url: "/Images/portfolio/graphic/product/daf9.webp", alt: "DAF 9", title: "DAF 9" },
+          { type: "image", url: "/Images/portfolio/graphic/product/kumbo8.webp", alt: "Kumbo 8", title: "Kumbo 8" },
+          { type: "image", url: "/Images/portfolio/graphic/product/jaggis1.webp", alt: "Jaggis 1", title: "Jaggis 1" }
+        ]
+      },
+      {
+        name: 'education',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/education/1.webp", alt: "Education 1", title: "Education 1" },
+          { type: "image", url: "/Images/portfolio/graphic/education/2.webp", alt: "Education 2", title: "Education 2" },
+          { type: "image", url: "/Images/portfolio/graphic/education/3.webp", alt: "Education 3", title: "Education 3" },
+          { type: "image", url: "/Images/portfolio/graphic/education/4.webp", alt: "Education 4", title: "Education 4" },
+          { type: "image", url: "/Images/portfolio/graphic/education/5.webp", alt: "Education 5", title: "Education 5" },
+          { type: "image", url: "/Images/portfolio/graphic/education/6.webp", alt: "Education 6", title: "Education 6" },
+          { type: "image", url: "/Images/portfolio/graphic/education/7.webp", alt: "Education 7", title: "Education 7" },
+          { type: "image", url: "/Images/portfolio/graphic/education/8.webp", alt: "Education 8", title: "Education 8" }
+        ]
+      },
+      {
+        name: 'printing',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/label/leaflet.webp", alt: "Leaflet", title: "Leaflet" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/21.webp", alt: "Printing 21", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/22.webp", alt: "Printing 22", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/23.webp", alt: "Printing 23", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/24.webp", alt: "Printing 24", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/25.webp", alt: "Printing 25", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/26.webp", alt: "Printing 26", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/27.webp", alt: "Printing 27", title: "Printing Item" },
+          { type: "image", url: "/Images/portfolio/graphic/label/banner.webp", alt: "Banner", title: "Banner" },
+          { type: "image", url: "/Images/portfolio/graphic/label/banner1.webp", alt: "Banner 1", title: "Banner 1" },
+          { type: "image", url: "/Images/portfolio/graphic/restraurant/28.webp", alt: "Printing 28", title: "Printing Item" }
+        ]
+      },
+      {
+        name: 'Menu',
+        items: [
+          { type: "iframe", fullurl: "https://online.fliphtml5.com/jbrzt/Food-Menu-Black/", url: "/Images/thumbnail/oasis3.webp", alt: "Food Menu Black", title: "Food Menu Black" },
+          { type: "iframe", fullurl: "https://online.fliphtml5.com/jbrzt/Jaggi-Resorts_compressed/", url: "/Images/thumbnail/oasis4.webp", alt: "Jaggi Resorts Menu", title: "Jaggi Resorts Menu" },
+          { type: "iframe", fullurl: "https://online.fliphtml5.com/jbrzt/Shaurya-Menu-compressed/", url: "/Images/thumbnail/oasis5.webp", alt: "Shaurya Menu", title: "Shaurya Menu" }
+        ]
+      },
+      {
+        name: 'Scanner',
+        items: [
+          { type: "image", url: "/Images/portfolio/graphic/label/scanner.webp", alt: "Scanner", title: "Scanner" },
+          { type: "image", url: "/Images/portfolio/graphic/label/scanner1.webp", alt: "Scanner 1", title: "Scanner 1" }
         ]
       }
     ],
     gallery: [
-      { src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1400&q=80", alt: "Gallery 1", title: "Item 1" }
+      { type: "image", url: "/Images/work/1.gif", alt: "Gallery Item 1", title: "Gallery Item 1" }
     ]
   }
 };

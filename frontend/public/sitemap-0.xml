@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://yourwebsite.com/about/</loc><lastmod>2026-03-09T11:33:42.120Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/admin/academy/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/admin/add/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/admin/auth/login/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/admin/company/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/admin/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/contact/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/digital-marketing/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/graphic-designing/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/packages/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/portfolio/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/privacy-policy/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/search-engine-optimization/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/services/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/social-media-marketing/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/video-production/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/web-development/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://yourwebsite.com/work/</loc><lastmod>2026-03-09T11:33:42.121Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

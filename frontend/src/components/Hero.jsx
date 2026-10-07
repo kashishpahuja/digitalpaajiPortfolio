@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import DepthText from './DepthText';
+import Link from 'next/link';
 
 export default function Hero({ darkTheme, setDarkTheme }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,9 +12,13 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       {/* Top Navbar */}
       <header className="flex items-center justify-between w-full max-w-7xl mx-auto z-20 animate-fade-in">
         {/* Brand Name */}
-        <div className="font-bold text-2xl tracking-tighter cursor-pointer">
-          Digital Paaji
-        </div>
+     <Link href="/" className="flex items-center cursor-pointer">
+  <img 
+    src={darkTheme ? "/logoWhite.webp" : "/logo2.webp"} 
+    alt="Digital Paaji Logo" 
+    className="h-12 md:h-[80px] w-auto object-cover transition-opacity duration-300" 
+  />
+</Link>
 
         {/* Desktop Navigation & Actions */}
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8 text-lg font-medium">
@@ -80,7 +85,7 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       {mobileMenuOpen && (
         <div className={`md:hidden absolute top-20 left-0 w-full z-30 p-6 shadow-xl border-b transition-colors ${darkTheme ? 'bg-neutral-900 border-neutral-800 text-white' : 'bg-white border-neutral-200 text-neutral-900'}`}>
           <div className="flex flex-col space-y-4 text-lg font-medium">
-            <a href="#work" onClick={() => setMobileMenuOpen(false)} className="hover:opacity-70">Our work (12)</a>
+            <a href="#work" onClick={() => setMobileMenuOpen(false)} className="hover:opacity-70">Our work</a>
             <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="hover:opacity-70">Contact Us</a>
           </div>
         </div>
@@ -90,40 +95,40 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       <main className="flex flex-col items-center justify-center text-center my-auto z-10 py-12">
         <div className="animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:200ms]">
         <DepthText
-  text="Put Your Work"
-  layers={10}
-  depth={1.5}
-  faceColor={darkTheme ? "#f8fafc" : "#111827"}
-  depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
-  tilt={5}
-  pointerTracking
-  smoothing={0.2}
-  perspective={900}
-  autoOrbit
-  orbitSpeed={0.15}
-  fontSize="clamp(3rem, 10vw, 10rem)"
-  fontWeight={900}
-  shadow
-/>
+          text="Put Your Work"
+          layers={10}
+          depth={1.5}
+          faceColor={darkTheme ? "#f8fafc" : "#111827"}
+          depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
+          tilt={5}
+          pointerTracking
+          smoothing={0.2}
+          perspective={900}
+          autoOrbit
+          orbitSpeed={0.15}
+          fontSize="clamp(3rem, 10vw, 10rem)"
+          fontWeight={900}
+          shadow
+        />
         </div>
 
         <div className="animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
-       <DepthText
-  text="in Motion."
-  layers={10}
-  depth={1.5}
-  faceColor={darkTheme ? "#f8fafc" : "#111827"}
-  depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
-  tilt={5}
-  pointerTracking
-  smoothing={0.2}
-  perspective={900}
-  autoOrbit
-  orbitSpeed={0.15}
-  fontSize="clamp(3rem, 10vw, 10rem)"
-  fontWeight={900}
-  shadow
-/>
+        <DepthText
+        text="in Motion."
+        layers={10}
+        depth={1.5}
+        faceColor={darkTheme ? "#f8fafc" : "#111827"}
+        depthColor={darkTheme ? "#7c3aed" : "#9ca3af"}
+        tilt={5}
+        pointerTracking
+        smoothing={0.2}
+        perspective={900}
+        autoOrbit
+        orbitSpeed={0.15}
+        fontSize="clamp(3rem, 10vw, 10rem)"
+        fontWeight={900}
+        shadow
+        />
         </div>
       </main>
 

@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirect http://digitalpaaji.com/ to https://digitalpaaji.com/
+RewriteCond %{HTTP_HOST} ^digitalpaaji\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://digitalpaaji.com/$1 [R=301,L]
+
+# Redirect www.digitalpaaji.com to digitalpaaji.com
+RewriteCond %{HTTP_HOST} ^www\.digitalpaaji\.com [NC]
+RewriteRule ^(.*)$ https://digitalpaaji.com/$1 [R=301,L]

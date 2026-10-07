@@ -116,25 +116,30 @@ export default function VideoPresentationsDetail() {
     <div className={`min-h-screen transition-colors duration-500 ${darkTheme ? 'bg-black text-white' : 'bg-white text-neutral-900'}`}>
       
       {/* Top Navigation Bar */}
-      <header className="flex items-center justify-between w-full px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-8 z-20">
-        <Link href="/" className="font-bold text-2xl tracking-tighter cursor-pointer">
-          Digital Paaji
-        </Link>
+     {/* Top Navigation Bar */}
+<header className="flex items-center justify-between w-full px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-8 z-20">
+  <Link href="/" className="flex items-center cursor-pointer">
+    <img 
+      src={darkTheme ? "/logoWhite.webp" : "/logo2.webp"} 
+      alt="Digital Paaji Logo" 
+      className="h-12 md:h-[80px] w-auto object-contain transition-opacity duration-300" 
+    />
+  </Link>
 
-        <div className="flex items-center space-x-6">
-          <button 
-            onClick={() => setDarkTheme(!darkTheme)}
-            className={`w-12 h-6 flex items-center rounded-full p-1 transition-colors duration-300 ${darkTheme ? 'bg-white' : 'bg-neutral-900'}`}
-            aria-label="Toggle Theme"
-          >
-            <div className={`bg-neutral-200 w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${darkTheme ? 'translate-x-6 bg-neutral-900' : 'translate-x-0'}`} />
-          </button>
-          
-          <Link href="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
-            ← Back Home
-          </Link>
-        </div>
-      </header>
+  <div className="flex items-center space-x-6">
+    <button 
+      onClick={() => setDarkTheme(!darkTheme)}
+      className={`w-12 h-6 flex items-center rounded-full p-1 transition-colors duration-300 ${darkTheme ? 'bg-white' : 'bg-neutral-900'}`}
+      aria-label="Toggle Theme"
+    >
+      <div className={`bg-neutral-200 w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${darkTheme ? 'translate-x-6 bg-neutral-900' : 'translate-x-0'}`} />
+    </button>
+    
+    <Link href="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
+      ← Back Home
+    </Link>
+  </div>
+</header>
 
       {/* Hero Header Section */}
       <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">
