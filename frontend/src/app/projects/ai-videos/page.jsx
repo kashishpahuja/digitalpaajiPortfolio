@@ -18,12 +18,12 @@ if (typeof window !== "undefined") {
 const projectDataMap = {
   'ai-videos': {
     title: 'AI Videos',
-    subtitle: 'Redefining synthetic media and narrative generation through advanced neural networks.',
+    subtitle: 'Bringing ideas to life through AI-powered visuals, cinematic storytelling, and next-generation creative production.',
     category: 'Generative Media & Motion',
     client: 'OpenLabs Global',
     year: '2026',
     role: 'Creative Direction & AI Pipeline',
-    description: 'We built a custom generative pipeline blending real-time neural upscaling with cinematic color grading. The result is a series of immersive visual pieces that merge artificial intelligence with human emotional depth.',
+    description: 'We transformed creative concepts into compelling visual experiences using AI-driven video generation, thoughtful art direction, and cinematic post-production. By combining emerging technology with human creativity, we crafted engaging content that captures attention, communicates ideas, and gives brands a distinctive visual identity',
     coverImage: "/Images/portfolio/ai/cover.gif",
     // Embedded full gallery collection matching your AiVideo requirements
     gallery: [
@@ -178,7 +178,7 @@ export default function ProjectDetail() {
         </p>
 
         {/* Project Meta Info Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
           <div>
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
             <p className="text-lg font-medium">{project.client}</p>
@@ -191,7 +191,7 @@ export default function ProjectDetail() {
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
             <p className="text-lg font-medium">{project.year}</p>
           </div>
-        </div>
+        </div> */}
 
       </main>
 
@@ -213,7 +213,9 @@ export default function ProjectDetail() {
           </div>
           <div className="lg:col-span-7 space-y-6 text-lg font-light opacity-90 leading-relaxed">
             <p>{project.description}</p>
-            <p>Every interaction was meticulously engineered to provide frictionless engagement while maintaining an unmistakable air of exclusivity and high-end agency execution.</p>
+            <p>
+              Every frame was designed with purpose, blending motion, storytelling, and visual consistency to deliver impactful digital content that helps brands stand out in an ever-evolving digital landscape.
+              </p>
           </div>
         </div>
 
@@ -224,7 +226,7 @@ export default function ProjectDetail() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+            className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
           >
             {project.gallery.map((asset, index) => (
               <motion.div

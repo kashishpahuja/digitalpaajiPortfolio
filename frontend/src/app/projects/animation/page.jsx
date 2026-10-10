@@ -15,38 +15,54 @@ if (typeof window !== "undefined") {
 }
 
 // Static database mapping matching the projects list
-const projectDataMap = {
+  const projectDataMap = {
 
   'animation': {
-    title: 'Animation',
+    title: 'Creative Videos',
     subtitle: 'Fluid 3D sculptures and procedural motion systems crafted in real-time.',
     category: '3D Motion Graphics',
     client: 'Kinetix Studio',
     year: '2025',
     role: '3D Simulation & Shaders',
     description: 'An experimental study in fluid dynamics and ferrofluid behavior. We created custom procedural shaders in WebGL and rendered photorealistic 3D compositions for digital installations.',
-    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80',
+    coverImage:"/Images/animation.webp",
       gallery: [
-        {type:"video",url:"https://www.youtube.com/embed/v2uIoeTJ7ho", thumb:"invite1.webp"},
+
+      {type:"video",url:"https://www.youtube.com/embed/nYAJt1d3c5o",thumb:"ibanta.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/bsfo-w8SMMI",thumb:"gr.webp"},  
+      {type:"video",url:"https://www.youtube.com/embed/v2uIoeTJ7ho", thumb:"invite1.webp"},
+    
+      https://youtube.com/shorts/nEGVw70Lkis
+      https://youtube.com/shorts/3ioY4o-LJ4g?feature=share
+      https://youtube.com/shorts/UuRVpBeND_U?feature=share
+
+      {type:"video",url:"https://www.youtube.com/embed/pyZyuFjdcNg",thumb:".webp"},    
+      {type:"video",url:"https://www.youtube.com/embed/ml95WNPezWI",thumb:".webp"},      
+      {type:"video",url:"https://www.youtube.com/embed/5mmXiAtO3IU",thumb:".webp"},    
+      {type:"video",url:"https://www.youtube.com/embed/f86TzvA_mm4", thumb:".webp"},
+      
+
+
+      {type:"video",url:"https://www.youtube.com/embed/nYAJt1d3c5o",thumb:"ibanta.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/bsfo-w8SMMI",thumb:"gr.webp"},  
+      {type:"video",url:"https://www.youtube.com/embed/v2uIoeTJ7ho", thumb:"invite1.webp"},
       {type:"video",url:"https://www.youtube.com/embed/qS6ln_Z3PPA",thumb:"invite2.webp"},
       {type:"video",url:"https://www.youtube.com/embed/ZEu6TWNDZFE",thumb:"invite3.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/ElMco97s7QA",thumb:"invite4.webp"},
-    
-    
+      {type:"video",url:"https://www.youtube.com/embed/ElMco97s7QA",thumb:"invite4.webp"},    
       {type:"video",url:"https://www.youtube.com/embed/EUvXb7a6en8", thumb:"oasis.webp"},
       {type:"video",url:"https://www.youtube.com/embed/JUKXs1v7Y7E",thumb:"clarion1.webp"},
       {type:"video",url:"https://www.youtube.com/embed/t1Cb5dSz8-s",thumb:"oasis1.webp"},
       {type:"video",url:"https://www.youtube.com/embed/zzl9yiB2qqQ",thumb:"ibnta5.webp"},
       {type:"video",url:"https://www.youtube.com/embed/3iuLOyu6SFk",thumb:"shangz1.webp"},
       {type:"video",url:"https://www.youtube.com/embed/wrENWvcGpLM",thumb:"wedding1.webp"},
-       {type:"video",url:"https://www.youtube.com/embed/MwY68_ujkPM",thumb:"education5.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/MwY68_ujkPM",thumb:"education5.webp"},
       {type:"video",url:"https://www.youtube.com/embed/WHcWzNiP40o",thumb:"ibnta6.webp"},
-    {type:"video",url:"https://www.youtube.com/embed/CbKtunhurCg",thumb:"oasis2.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/CbKtunhurCg",thumb:"oasis2.webp"},
       {type:"video",url:"https://www.youtube.com/embed/L9a9YsVXJho",thumb:"electronic1.webp"},
-   {type:"video",url:"https://www.youtube.com/embed/v23XZlcVXvI",thumb:"electronic2.webp"}, ]
-  },
+      {type:"video",url:"https://www.youtube.com/embed/v23XZlcVXvI",thumb:"electronic2.webp"}, ]
+   },
 
-};
+  };
 
 export default function ProjectDetail() {
   const params = useParams();
@@ -160,7 +176,7 @@ export default function ProjectDetail() {
             scrollStart="top 90%"
             scrollEnd="bottom 40%"
             stagger={0.03}
-            textClassName={`text-5xl sm:text-7xl lg:text-9xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
+            textClassName={`text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
           >
             {project.title}
           </ScrollFloat>
@@ -172,7 +188,7 @@ export default function ProjectDetail() {
         </p>
 
         {/* Project Meta Info Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
           <div>
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
             <p className="text-lg font-medium">{project.client}</p>
@@ -185,7 +201,7 @@ export default function ProjectDetail() {
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
             <p className="text-lg font-medium">{project.year}</p>
           </div>
-        </div>
+        </div> */}
 
       </main>
 
@@ -218,7 +234,7 @@ export default function ProjectDetail() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+            className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
           >
             {project.gallery.map((asset, index) => (
               <motion.div

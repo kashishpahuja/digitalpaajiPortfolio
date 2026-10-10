@@ -20,9 +20,9 @@ export default function Home() {
       <Hero darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
 
       {/* About Section sharing the exact same darkTheme state */}
+     <Gallary/>
       <AboutSection darkTheme={darkTheme} />
       <FeaturedProjects darkTheme={darkTheme} />
-     <Gallary/>
 
       <Footer/>
     </div>

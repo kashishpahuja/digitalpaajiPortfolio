@@ -807,12 +807,12 @@ export default function ProjectDetail() {
   }, [project]);
 
   return (
-    <div className={`min-h-screen transition-colors duration-500 ${darkTheme ? 'bg-black text-white' : 'bg-white text-neutral-900'}`}>
+    <div className={` transition-colors duration-500 ${darkTheme ? 'bg-black text-white' : 'bg-white text-neutral-900'}`}>
         <main className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-12">
     
 
         {/* Unified Dome Gallery View */}
-        <div className="mb-24" style={{ width: '100%', height: '650px', position: 'relative' }}>
+        <div className="min-h-screen" style={{ width: '100%', height: '650px', position: 'relative' }}>
           <DomeGallery
             images={allImages}
             fit={0.8}

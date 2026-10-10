@@ -25,8 +25,12 @@ const projectDataMap = {
         year: '2026',
         role: 'UI/UX Design & Full-Stack Architecture',
         description: 'Reimagining corporate digital presence and interactive workflows. Each project explores deep information architecture, fluid layout design, and user-centric flows that transform complex requirements into intuitive digital products.',
-        coverImage: '/Images/portfolio/website/cover.webp',
+        coverImage:  "/Images/website.webp",
         gallery: [
+            { thumb: "/Images/portfolio/website/m4c.webp", full: "/Images/portfolio/website/m4c.pdf", type: "pdf", title: "Manjit4Caledon Portfolio Website" },
+            { thumb: "/Images/portfolio/website/shudyam.webp", full: "/Images/shudyam.pdf", type: "pdf", title: "Brass Utensils Platform" },
+            { thumb: "/Images/portfolio/website/daf.webp", full: "/Images/daf.pdf", type: "pdf", title: "Dr. Aulakh Foods Ecom Platform" },
+           
             { thumb: "/Images/portfolio/website/m.webp", full: "/Images/digimagnifiko.pdf", type: "pdf", title: "Digimagnifiko UI/UX Presentation" },
             { thumb: "/Images/portfolio/website/sr.webp", full: "/Images/sr.pdf", type: "pdf", title: "SR Platform Design" },
             { thumb: "/Images/portfolio/website/dp.webp", full: "/Images/dp.pdf", type: "pdf", title: "Digital Paaji Showcase" },
@@ -169,7 +173,7 @@ export default function ProjectDetail() {
                 </p>
 
                 {/* Project Meta Info Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16">
+                {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16">
                     <div>
                         <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
                         <p className="text-lg font-medium">{project.client}</p>
@@ -182,7 +186,7 @@ export default function ProjectDetail() {
                         <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
                         <p className="text-lg font-medium">{project.year}</p>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Project Description */}
                 <div className="mb-20 max-w-4xl">
@@ -211,7 +215,7 @@ export default function ProjectDetail() {
                         variants={containerVariants}
                         initial="hidden"
                         animate="show"
-                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+                        className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
                     >
                         {project.gallery.map((asset, index) => (
                             <motion.div
@@ -222,7 +226,7 @@ export default function ProjectDetail() {
                             >
                                 <img
                                     src={asset.thumb}
-                                    className="w-full h-64 object-cover md:grayscale group-hover:grayscale-0 transition-all duration-700"
+                                    className="w-full h-64 object-contain group-hover:grayscale-0 transition-all duration-700"
                                     alt={asset.title || `Gallery Item ${index + 1}`}
                                     loading="lazy"
                                 />

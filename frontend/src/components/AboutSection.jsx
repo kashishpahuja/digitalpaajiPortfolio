@@ -49,7 +49,7 @@ export default function AboutSection({ darkTheme = false }) {
             <strong className={`${darkTheme ? 'text-white' : 'text-black'} font-semibold`}>Digital Paaji</strong> is a powerhouse digital agency crafting results-driven creative strategies, high-performance websites, expressive motion, and thoughtful digital interactions. 
           </p>
           <p className={`text-xl leading-relaxed ${darkTheme ? 'text-neutral-300' : 'text-neutral-700'}`}>
-            Whether through advanced SEO, cutting-edge web design, or impactful social media campaigns, we build digital assets that let your work speak for itself without getting in the way.
+            Whether through cutting-edge web design, or impactful social media campaigns, we build digital assets that let your work speak for itself without getting in the way.
           </p>
 
      <a

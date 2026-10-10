@@ -25,7 +25,7 @@ const projectDataMap = {
     year: '2025',
     role: 'Brand Strategy & Multimedia',
     description: 'A massive visual identity system built for international audiences. We coordinated live stage graphics, motion packages, and print collateral that united over 10,000 global business leaders through high-impact visual storytelling.',
-    coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1600&q=80',
+    coverImage:  "/Images/bni.webp",
     videos: [
       
       {
@@ -299,7 +299,7 @@ export default function ProjectDetail() {
         </p>
 
         {/* Project Meta Info Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
           <div>
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
             <p className="text-lg font-medium">{project.client}</p>
@@ -312,7 +312,7 @@ export default function ProjectDetail() {
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
             <p className="text-lg font-medium">{project.year}</p>
           </div>
-        </div>
+        </div> */}
 
       </main>
 
@@ -370,7 +370,7 @@ export default function ProjectDetail() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 items-start"
+            className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 items-start"
           >
             {currentGallery.map((asset, index) => {
               const isVideo = typeof asset === 'object' && asset.type === 'video';

@@ -21,7 +21,7 @@ const presentationProjectData = {
   year: '2026',
   role: 'Motion Design & Directing',
   description: 'Designed for high-stakes investor keynotes, this piece utilizes minimal typography styling, rhythm-driven editing, and depth-based camera choreography to turn technical data into a compelling brand journey.',
-  coverImage: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1600&q=80',
+  coverImage:  "/Images/video.webp",
   gallery: [
     {
       type: "video",
@@ -171,7 +171,7 @@ export default function VideoPresentationsDetail() {
         </p>
 
         {/* Project Meta Info Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
           <div>
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
             <p className="text-lg font-medium">{presentationProjectData.client}</p>
@@ -184,7 +184,7 @@ export default function VideoPresentationsDetail() {
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
             <p className="text-lg font-medium">{presentationProjectData.year}</p>
           </div>
-        </div>
+        </div> */}
 
       </main>
 

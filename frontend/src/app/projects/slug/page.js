@@ -18,7 +18,7 @@ if (typeof window !== "undefined") {
 const projectDataMap = {
   'ai-videos': {
     title: 'AI Videos',
-    subtitle: 'Redefining synthetic media and narrative generation through advanced neural networks.',
+    subtitle: 'Create scroll-stopping AI videos that blend imaginative storytelling, stunning visuals, and cutting-edge AI to bring your brand’s ideas to life.',
     category: 'Generative Media & Motion',
     client: 'OpenLabs Global',
     year: '2026',
@@ -236,7 +236,7 @@ export default function ProjectDetail() {
         </p>
 
         {/* Project Meta Info Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
           <div>
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
             <p className="text-lg font-medium">{project.client}</p>
@@ -249,7 +249,7 @@ export default function ProjectDetail() {
             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
             <p className="text-lg font-medium">{project.year}</p>
           </div>
-        </div>
+        </div> */}
 
       </main>
 
@@ -282,7 +282,7 @@ export default function ProjectDetail() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+            className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
           >
             {project.gallery.map((asset, index) => (
               <motion.div
