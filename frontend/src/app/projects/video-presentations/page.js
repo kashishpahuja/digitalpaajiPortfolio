@@ -23,7 +23,12 @@ const presentationProjectData = {
   description: 'Designed for high-stakes investor keynotes, this piece utilizes minimal typography styling, rhythm-driven editing, and depth-based camera choreography to turn technical data into a compelling brand journey.',
   coverImage:  "/Images/video.webp",
   gallery: [
+    
     {
+      type: "video",
+      url: "https://www.youtube.com/embed/QzXLG6FpSh0",
+      thumb: "bni.png",
+    },{
       type: "video",
       url: "https://www.youtube.com/embed/J-xrMCtDCgU",
       thumb: "prodsol.webp",

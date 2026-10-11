@@ -23,7 +23,7 @@ const projects = [
   {
     title: 'Creative Videos',
     slug: 'animation',
-    media: '/Images/animation.webp',
+    media: '/Images/portfolio/reels/cover.gif',
     category: '3D Motion Animation + Reel Creation',
     client: 'Kinetix Studio',
     year: '2025',

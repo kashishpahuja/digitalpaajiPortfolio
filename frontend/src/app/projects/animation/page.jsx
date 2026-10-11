@@ -19,27 +19,30 @@ if (typeof window !== "undefined") {
 
   'animation': {
     title: 'Creative Videos',
-    subtitle: 'Fluid 3D sculptures and procedural motion systems crafted in real-time.',
+    subtitle: 'Animated Videos and Reel Creations for different brands.',
     category: '3D Motion Graphics',
     client: 'Kinetix Studio',
     year: '2025',
     role: '3D Simulation & Shaders',
     description: 'An experimental study in fluid dynamics and ferrofluid behavior. We created custom procedural shaders in WebGL and rendered photorealistic 3D compositions for digital installations.',
-    coverImage:"/Images/animation.webp",
+    coverImage:"/Images/portfolio/reels/cover.gif",
       gallery: [
+      //  {type:"video",url:"https://www.youtube.com/embed/8mUzPQlLzFQ",thumb:".webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/hv_CsNEkbk0",thumb:".webp"},  
+       {type:"video",url:"https://www.youtube.com/embed/wT-HrGqnnVA",thumb:"daf.webp"},      
+      {type:"video",url:"https://www.youtube.com/embed/xcTIn1MghFc",thumb:"kc.webp"},    
+      {type:"video",url:"https://www.youtube.com/embed/kZUEBcW3jxU", thumb:"canco.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/6vqO1z3BOcg", thumb:"ibnta.webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/QzXLG6FpSh0",thumb:".webp"},    
+      
 
-      {type:"video",url:"https://www.youtube.com/embed/nYAJt1d3c5o",thumb:"ibanta.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/bsfo-w8SMMI",thumb:"gr.webp"},  
-      {type:"video",url:"https://www.youtube.com/embed/v2uIoeTJ7ho", thumb:"invite1.webp"},
-    
-      https://youtube.com/shorts/nEGVw70Lkis
-      https://youtube.com/shorts/3ioY4o-LJ4g?feature=share
-      https://youtube.com/shorts/UuRVpBeND_U?feature=share
-
-      {type:"video",url:"https://www.youtube.com/embed/pyZyuFjdcNg",thumb:".webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/ml95WNPezWI",thumb:".webp"},      
-      {type:"video",url:"https://www.youtube.com/embed/5mmXiAtO3IU",thumb:".webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/f86TzvA_mm4", thumb:".webp"},
+{type:"video",url:"https://www.youtube.com/embed/nEGVw70Lkis",thumb:"jaggi.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/3ioY4o-LJ4g",thumb:"mc.webp"},  
+      {type:"video",url:"https://www.youtube.com/embed/UuRVpBeND_U", thumb:"jaggisweets.webp"},
+      {type:"video",url:"https://www.youtube.com/embed/pyZyuFjdcNg",thumb:"jaggirainyday.webp"},    
+      {type:"video",url:"https://www.youtube.com/embed/ml95WNPezWI",thumb:"ptiala.webp"},      
+      {type:"video",url:"https://www.youtube.com/embed/5mmXiAtO3IU",thumb:"paneer.webp"},    
+      {type:"video",url:"https://www.youtube.com/embed/f86TzvA_mm4", thumb:"jaggiwedding.webp"},
       
 
 
@@ -217,7 +220,7 @@ export default function ProjectDetail() {
 
       <main className=" px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52">
         {/* Overview & Description Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
           <div className="lg:col-span-5">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">The Challenge &amp; Solution</h2>
           </div>
@@ -225,7 +228,7 @@ export default function ProjectDetail() {
             <p>{project.description}</p>
             <p>Every interaction was meticulously engineered to provide frictionless engagement while maintaining an unmistakable air of exclusivity and high-end agency execution.</p>
           </div>
-        </div>
+        </div> */}
 
         {/* Gallery Section with Grid Layout (2 columns on large screens) and Motion Animation */}
         <div className="space-y-12 mb-24">
