@@ -151,21 +151,21 @@ const projectDataMap = {
         landscape: false,
       },
     ],
-    graphics: [
-      "/Images/portfolio/BNI/b7.webp",
-      "/Images/portfolio/BNI/b8.webp",
-      "/Images/portfolio/BNI/b9.webp",
-      "/Images/portfolio/BNI/b10.webp",
-      "/Images/portfolio/BNI/b11.webp",
-      "/Images/portfolio/BNI/b1.webp",
-      "/Images/portfolio/BNI/b2.webp",
-      "/Images/portfolio/BNI/b3.webp",
-      "/Images/portfolio/BNI/b4.webp",
-      "/Images/portfolio/BNI/b5.webp",
-      "/Images/portfolio/BNI/b6.webp",
-      "/Images/portfolio/BNI/b12.webp",
-      "/Images/portfolio/BNI/b13.webp",
-    ]
+    // graphics: [
+    //   "/Images/portfolio/BNI/b7.webp",
+    //   "/Images/portfolio/BNI/b8.webp",
+    //   "/Images/portfolio/BNI/b9.webp",
+    //   "/Images/portfolio/BNI/b10.webp",
+    //   "/Images/portfolio/BNI/b11.webp",
+    //   "/Images/portfolio/BNI/b1.webp",
+    //   "/Images/portfolio/BNI/b2.webp",
+    //   "/Images/portfolio/BNI/b3.webp",
+    //   "/Images/portfolio/BNI/b4.webp",
+    //   "/Images/portfolio/BNI/b5.webp",
+    //   "/Images/portfolio/BNI/b6.webp",
+    //   "/Images/portfolio/BNI/b12.webp",
+    //   "/Images/portfolio/BNI/b13.webp",
+    // ]
   }
 };
 
@@ -270,7 +270,7 @@ export default function ProjectDetail() {
       </header>
 
       {/* Hero Header Section */}
-      <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">
+      <main className=" px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">
         
         {/* Category & Year */}
         <div className="flex items-center space-x-4 text-sm uppercase tracking-widest opacity-60 mb-6 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:100ms]">
@@ -280,14 +280,26 @@ export default function ProjectDetail() {
         </div>
 
         {/* Title with ScrollFloat Animation */}
-        <div className="mb-8">
+        <div className="mb-8 w-fit ">
           <ScrollFloat
-            animationDuration={1}
-            ease="back.inOut(2)"
-            scrollStart="top 90%"
-            scrollEnd="bottom 40%"
-            stagger={0.03}
-            textClassName={`text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
+text={project.title}
+    reveal="letter"
+    dashLength={4}
+    dashGap={2}
+    specks={10}
+color={darkTheme ? "#ffffff" : "#171717"}
+    accentColor={darkTheme ? "#ffffff" : "#171717"}
+    letterSpacing={0.03}
+    reach={150}
+    softness={0.7}
+    strokeWidth={1.5}
+    speed={1}
+    lineStyle="dashed"
+    selection
+    labels={false}
+    draggable
+    sweep
+            textClassName={`text-5xl sm:text-7xl lg:text-9xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
           >
             {project.title}
           </ScrollFloat>
@@ -317,18 +329,18 @@ export default function ProjectDetail() {
       </main>
 
       {/* --- GSAP Scroll Expand Cover Media Section --- */}
-      <div className="w-full flex justify-center overflow-hidden mb-24">
+      {/* <div className="w-full flex justify-center overflow-hidden mb-24">
         <div
           ref={coverContainerRef}
           className="overflow-hidden shadow-2xl aspect-[16/9]"
         >
           <img src={project.coverImage} alt={project.title} className="w-full h-full object-cover" />
         </div>
-      </div>
+      </div> */}
 
       <main className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52">
         {/* Overview & Description Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
           <div className="lg:col-span-5">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">The Challenge &amp; Solution</h2>
           </div>
@@ -336,10 +348,10 @@ export default function ProjectDetail() {
             <p>{project.description}</p>
             <p>Every interaction was meticulously engineered to provide frictionless engagement while maintaining an unmistakable air of exclusivity and high-end global execution.</p>
           </div>
-        </div>
+        </div> */}
 
         {/* --- Tab Navigation System --- */}
-        <div className="flex items-center justify-end space-x-4 mb-16 border-b border-neutral-800 pb-6">
+        {/* <div className="flex items-center justify-end space-x-4 mb-16 border-b border-neutral-800 pb-6">
           <button
             onClick={() => { setActiveTab('videos'); setSelectedAsset(null); }}
             className={`px-8 py-3 rounded-full text-sm font-medium tracking-wider uppercase transition-all duration-300 ${
@@ -361,7 +373,7 @@ export default function ProjectDetail() {
           >
             Graphics ({project.graphics?.length || 0})
           </button>
-        </div>
+        </div> */}
 
         {/* Gallery Section with Grid Layout & Motion Animation */}
         <div className="space-y-12 mb-24">

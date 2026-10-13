@@ -7,6 +7,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ScrollFloat from '@/components/ScrollFloat';
 import Footer from '@/components/Footer';
+import { useParams } from 'next/navigation';
 
 // Register ScrollTrigger outside the component
 if (typeof window !== "undefined") {
@@ -14,7 +15,8 @@ if (typeof window !== "undefined") {
 }
 
 const presentationProjectData = {
-  title: 'Video Presentations',
+  title: 'Video Presentation',
+  
   subtitle: 'High-impact dynamic cinematic pitch reels designed to command attention.',
   category: 'Pitch & Brand Films',
   client: 'Nexus Ventures',
@@ -64,7 +66,6 @@ const presentationProjectData = {
 export default function VideoPresentationsDetail() {
   const [darkTheme, setDarkTheme] = useState(true);
   const [selectedAsset, setSelectedAsset] = useState(null);
-
   const coverContainerRef = useRef(null);
 
   // Manage body scroll overflow on modal open/close
@@ -147,7 +148,7 @@ export default function VideoPresentationsDetail() {
 </header>
 
       {/* Hero Header Section */}
-      <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">
+      <main className=" px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">
         
         {/* Category & Year */}
         <div className="flex items-center space-x-4 text-sm uppercase tracking-widest opacity-60 mb-6 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:100ms]">
@@ -157,14 +158,28 @@ export default function VideoPresentationsDetail() {
         </div>
 
         {/* Title with ScrollFloat Animation */}
-        <div className="mb-8">
+        <div className="mb-8 w-fit ">
           <ScrollFloat
-            animationDuration={1}
-            ease="back.inOut(2)"
-            scrollStart="top 90%"
-            scrollEnd="bottom 40%"
-            stagger={0.03}
-            textClassName={`text-4xl md:text-7xl lg:text-8xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
+    text={presentationProjectData.title}
+    // text='Video Presentations'
+    reveal="letter"
+    
+    dashLength={4}
+    dashGap={2}
+    specks={10}
+color={darkTheme ? "#ffffff" : "#171717"}
+    accentColor={darkTheme ? "#ffffff" : "#171717"}
+    // letterSpacing={0.03}
+    reach={150}
+    softness={0.7}
+    strokeWidth={1.5}
+    speed={1}
+    lineStyle="dashed"
+    selection
+    labels={false}
+    draggable
+    sweep
+            textClassName={`text-5xl sm:text-7xl lg:text-9xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
           >
            Video Presentation
           </ScrollFloat>
@@ -194,18 +209,18 @@ export default function VideoPresentationsDetail() {
       </main>
 
       {/* --- GSAP Scroll Expand Cover Media Section --- */}
-      <div className="w-full flex justify-center overflow-hidden mb-24">
+      {/* <div className="w-full flex justify-center overflow-hidden mb-24">
         <div
           ref={coverContainerRef}
           className="overflow-hidden shadow-2xl aspect-[16/9]"
         >
           <img src={presentationProjectData.coverImage} alt={presentationProjectData.title} className="w-full h-full object-cover" />
         </div>
-      </div>
+      </div> */}
 
       <main className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52">
         {/* Overview & Description Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
           <div className="lg:col-span-5">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">The Challenge &amp; Solution</h2>
           </div>
@@ -213,7 +228,7 @@ export default function VideoPresentationsDetail() {
             <p>{presentationProjectData.description}</p>
             <p>Every presentation video was crafted with custom visual pacing and professional sound design to keep audiences completely captivated.</p>
           </div>
-        </div>
+        </div> */}
 
         {/* Gallery Section - Landscape Grid layout (1 col mobile, 2 cols on md+) */}
         <div className="space-y-12 mb-24">

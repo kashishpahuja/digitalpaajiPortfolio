@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* About Section sharing the exact same darkTheme state */}
      <Gallary/>
-      <AboutSection darkTheme={darkTheme} />
+      {/* <AboutSection darkTheme={darkTheme} /> */}
       <FeaturedProjects darkTheme={darkTheme} />
 
       <Footer/>

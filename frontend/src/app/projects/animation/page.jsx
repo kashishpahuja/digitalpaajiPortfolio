@@ -18,7 +18,7 @@ if (typeof window !== "undefined") {
   const projectDataMap = {
 
   'animation': {
-    title: 'Creative Videos',
+    title: 'Animation',
     subtitle: 'Animated Videos and Reel Creations for different brands.',
     category: '3D Motion Graphics',
     client: 'Kinetix Studio',
@@ -27,27 +27,44 @@ if (typeof window !== "undefined") {
     description: 'An experimental study in fluid dynamics and ferrofluid behavior. We created custom procedural shaders in WebGL and rendered photorealistic 3D compositions for digital installations.',
     coverImage:"/Images/portfolio/reels/cover.gif",
       gallery: [
-      //  {type:"video",url:"https://www.youtube.com/embed/8mUzPQlLzFQ",thumb:".webp"},
-      // {type:"video",url:"https://www.youtube.com/embed/hv_CsNEkbk0",thumb:".webp"},  
-       {type:"video",url:"https://www.youtube.com/embed/wT-HrGqnnVA",thumb:"daf.webp"},      
-      {type:"video",url:"https://www.youtube.com/embed/xcTIn1MghFc",thumb:"kc.webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/kZUEBcW3jxU", thumb:"canco.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/6vqO1z3BOcg", thumb:"ibnta.webp"},
-      // {type:"video",url:"https://www.youtube.com/embed/QzXLG6FpSh0",thumb:".webp"},    
+
+
+      //   {type:"video",url:"https://www.youtube.com/embed/-AQWahFlMNo",thumb:"jaggi.webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/fjmf_U3H79Q",thumb:"mc.webp"},  
+      // {type:"video",url:"https://www.youtube.com/embed/lsEfSeWs8GA", thumb:"jaggisweets.webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/OWiuqq-_V5Y",thumb:"jaggirainyday.webp"},    
+      // {type:"video",url:"https://www.youtube.com/embed/7nkOIT1n5OU",thumb:"ptiala.webp"},      
+      // {type:"video",url:"https://www.youtube.com/embed/E41Rna25L8g",thumb:"paneer.webp"},    
+      // {type:"video",url:"https://www.youtube.com/embed/H-tSTgWOYiY", thumb:"jaggiwedding.webp"},
+      //       {type:"video",url:"https://www.youtube.com/embed/xYAO_W4Y1BI",thumb:"jaggirainyday.webp"},    
+      // {type:"video",url:"https://www.youtube.com/embed/oxwJNsLFvls",thumb:"ptiala.webp"},      
+      // {type:"video",url:"https://www.youtube.com/embed/M1xdGFTlBPA",thumb:"paneer.webp"},    
+      // {type:"video",url:"https://www.youtube.com/embed/yE3Rf25k_q8", thumb:"jaggiwedding.webp"},
+      
+      //  {type:"video",url:"https://www.youtube.com/embed/2RQuq-RmkTs",thumb:".webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/_JZ9JU5ZP3Y",thumb:".webp"}, 
+      
+      
+      //  {type:"video",url:"https://www.youtube.com/embed/wT-HrGqnnVA",thumb:"daf.webp"},      
+      // {type:"video",url:"https://www.youtube.com/embed/xcTIn1MghFc",thumb:"kc.webp"},    
+      // {type:"video",url:"https://www.youtube.com/embed/kZUEBcW3jxU", thumb:"canco.webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/6vqO1z3BOcg", thumb:"ibnta.webp"},
+      // // {type:"video",url:"https://www.youtube.com/embed/QzXLG6FpSh0",thumb:".webp"},    
       
 
-{type:"video",url:"https://www.youtube.com/embed/nEGVw70Lkis",thumb:"jaggi.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/3ioY4o-LJ4g",thumb:"mc.webp"},  
-      {type:"video",url:"https://www.youtube.com/embed/UuRVpBeND_U", thumb:"jaggisweets.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/pyZyuFjdcNg",thumb:"jaggirainyday.webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/ml95WNPezWI",thumb:"ptiala.webp"},      
-      {type:"video",url:"https://www.youtube.com/embed/5mmXiAtO3IU",thumb:"paneer.webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/f86TzvA_mm4", thumb:"jaggiwedding.webp"},
+// {type:"video",url:"https://www.youtube.com/embed/nEGVw70Lkis",thumb:"jaggi.webp"},
+//       {type:"video",url:"https://www.youtube.com/embed/3ioY4o-LJ4g",thumb:"mc.webp"},  
+//       {type:"video",url:"https://www.youtube.com/embed/UuRVpBeND_U", thumb:"jaggisweets.webp"},
+//       {type:"video",url:"https://www.youtube.com/embed/pyZyuFjdcNg",thumb:"jaggirainyday.webp"},    
+//       {type:"video",url:"https://www.youtube.com/embed/ml95WNPezWI",thumb:"ptiala.webp"},      
+//       {type:"video",url:"https://www.youtube.com/embed/5mmXiAtO3IU",thumb:"paneer.webp"},    
+//       {type:"video",url:"https://www.youtube.com/embed/f86TzvA_mm4", thumb:"jaggiwedding.webp"},
       
 
 
-      {type:"video",url:"https://www.youtube.com/embed/nYAJt1d3c5o",thumb:"ibanta.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/bsfo-w8SMMI",thumb:"gr.webp"},  
+      // {type:"video",url:"https://www.youtube.com/embed/nYAJt1d3c5o",thumb:"ibanta.webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/bsfo-w8SMMI",thumb:"gr.webp"},  
+    
       {type:"video",url:"https://www.youtube.com/embed/v2uIoeTJ7ho", thumb:"invite1.webp"},
       {type:"video",url:"https://www.youtube.com/embed/qS6ln_Z3PPA",thumb:"invite2.webp"},
       {type:"video",url:"https://www.youtube.com/embed/ZEu6TWNDZFE",thumb:"invite3.webp"},
@@ -61,8 +78,9 @@ if (typeof window !== "undefined") {
       {type:"video",url:"https://www.youtube.com/embed/MwY68_ujkPM",thumb:"education5.webp"},
       {type:"video",url:"https://www.youtube.com/embed/WHcWzNiP40o",thumb:"ibnta6.webp"},
       {type:"video",url:"https://www.youtube.com/embed/CbKtunhurCg",thumb:"oasis2.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/L9a9YsVXJho",thumb:"electronic1.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/v23XZlcVXvI",thumb:"electronic2.webp"}, ]
+      // {type:"video",url:"https://www.youtube.com/embed/L9a9YsVXJho",thumb:"electronic1.webp"},
+      // {type:"video",url:"https://www.youtube.com/embed/v23XZlcVXvI",thumb:"electronic2.webp"}, 
+      ]
    },
 
   };
@@ -162,7 +180,7 @@ export default function ProjectDetail() {
 </header>
 
       {/* Hero Header Section */}
-      <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">
+      <main className=" px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">
         
         {/* Category & Year */}
         <div className="flex items-center space-x-4 text-sm uppercase tracking-widest opacity-60 mb-6 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:100ms]">
@@ -172,14 +190,26 @@ export default function ProjectDetail() {
         </div>
 
         {/* Title with ScrollFloat Animation */}
-        <div className="mb-8">
+        <div className="mb-8 w-fit ">
           <ScrollFloat
-            animationDuration={1}
-            ease="back.inOut(2)"
-            scrollStart="top 90%"
-            scrollEnd="bottom 40%"
-            stagger={0.03}
-            textClassName={`text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
+text={project.title}
+    reveal="letter"
+    dashLength={4}
+    dashGap={2}
+    specks={10}
+color={darkTheme ? "#ffffff" : "#171717"}
+    accentColor={darkTheme ? "#ffffff" : "#171717"}
+    letterSpacing={0.03}
+    reach={150}
+    softness={0.7}
+    strokeWidth={1.5}
+    speed={1}
+    lineStyle="dashed"
+    selection
+    labels={false}
+    draggable
+    sweep
+            textClassName={`text-5xl sm:text-7xl lg:text-9xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
           >
             {project.title}
           </ScrollFloat>
@@ -209,14 +239,14 @@ export default function ProjectDetail() {
       </main>
 
       {/* --- GSAP Scroll Expand Cover Media Section --- */}
-      <div className="w-full flex justify-center overflow-hidden mb-24">
+      {/* <div className="w-full flex justify-center overflow-hidden mb-24">
         <div
           ref={coverContainerRef}
           className="overflow-hidden shadow-2xl aspect-[16/9]"
         >
           <img src={project.coverImage} alt={project.title} className="w-full h-full object-cover" />
         </div>
-      </div>
+      </div> */}
 
       <main className=" px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52">
         {/* Overview & Description Section */}
@@ -237,7 +267,7 @@ export default function ProjectDetail() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
           >
             {project.gallery.map((asset, index) => (
               <motion.div
@@ -397,270 +427,3 @@ export default function ProjectDetail() {
     </div>
   );
 }
-
-
-// 'use client';
-// import React, { useState, useEffect, useRef } from 'react';
-// import Link from 'next/link';
-// import { useParams } from 'next/navigation';
-// import gsap from 'gsap';
-// import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import ScrollFloat from '@/components/ScrollFloat';
-
-// // Register ScrollTrigger outside the component
-// if (typeof window !== "undefined") {
-//   gsap.registerPlugin(ScrollTrigger);
-// }
-
-// // Static database mapping matching the projects list
-// const projectDataMap = {
-//   'ai-videos': {
-//     title: 'AI Videos',
-//     subtitle: 'Redefining synthetic media and narrative generation through advanced neural networks.',
-//     category: 'Generative Media & Motion',
-//     client: 'OpenLabs Global',
-//     year: '2026',
-//     role: 'Creative Direction & AI Pipeline',
-//     description: 'We built a custom generative pipeline blending real-time neural upscaling with cinematic color grading. The result is a series of immersive visual pieces that merge artificial intelligence with human emotional depth.',
-//     coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80',
-//     gallery: [
-//       'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1400&q=80',
-//       'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80'
-//     ]
-//   },
-//   'video-presentations': {
-//     title: 'Video Presentations',
-//     subtitle: 'High-impact dynamic cinematic pitch reels designed to command attention.',
-//     category: 'Pitch & Brand Films',
-//     client: 'Nexus Ventures',
-//     year: '2026',
-//     role: 'Motion Design & Directing',
-//     description: 'Designed for high-stakes investor keynotes, this piece utilizes minimal typography styling, rhythm-driven editing, and depth-based camera choreography to turn technical data into a compelling brand journey.',
-//     coverImage: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1600&q=80',
-//     gallery: [
-//       'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80',
-//       'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1400&q=80'
-//     ]
-//   },
-//   'animation': {
-//     title: 'Animation',
-//     subtitle: 'Fluid 3D sculptures and procedural motion systems crafted in real-time.',
-//     category: '3D Motion Graphics',
-//     client: 'Kinetix Studio',
-//     year: '2025',
-//     role: '3D Simulation & Shaders',
-//     description: 'An experimental study in fluid dynamics and ferrofluid behavior. We created custom procedural shaders in WebGL and rendered photorealistic 3D compositions for digital installations.',
-//     coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80',
-//     gallery: [
-//       'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=80'
-//     ]
-//   },
-//   'product-shoot': {
-//     title: 'Product Shoot',
-//     subtitle: 'Minimalist commercial photography and cinematic lighting for luxury items.',
-//     category: 'Commercial Direction',
-//     client: 'Aura Lifestyle',
-//     year: '2025',
-//     role: 'Art Direction & Cinematography',
-//     description: 'A meticulous exploration of texture, form, and shadow. Using hard architectural lighting and organic props, we crafted a high-end visual identity that elevates everyday physical goods.',
-//     coverImage: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1600&q=80',
-//     gallery: [
-//       'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1400&q=80'
-//     ]
-//   },
-//   'website-ui-ux': {
-//     title: 'Website UI/UX',
-//     subtitle: 'Immersive web experiences driven by expressive interaction and bespoke typography.',
-//     category: 'Digital Experience',
-//     client: 'Vanguard Tech',
-//     year: '2026',
-//     role: 'UI/UX Design & Full-Stack Build',
-//     description: 'Reimagining corporate digital presence through custom WebGL shaders, fluid page transitions, and ultra-clean responsive layouts that convert curious visitors into dedicated brand advocates.',
-//     coverImage: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80',
-//     gallery: [
-//       'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1400&q=80'
-//     ]
-//   },
-//   'bni': {
-//     title: 'BNI',
-//     subtitle: 'Global convention campaign graphics, stage design, and digital rollout.',
-//     category: 'Global Convention Campaign',
-//     client: 'BNI Enterprise',
-//     year: '2025',
-//     role: 'Brand Strategy & Multimedia',
-//     description: 'A massive visual identity system built for international audiences. We coordinated live stage graphics, motion packages, and print collateral that united over 10,000 global business leaders.',
-//     coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1600&q=80',
-//     gallery: [
-//       'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1400&q=80'
-//     ]
-//   }
-// };
-
-// export default function ProjectDetail() {
-//   const params = useParams();
-//   const slug = params?.slug;
-//   const project = projectDataMap[slug] || projectDataMap['ai-videos'];
-//   const [darkTheme, setDarkTheme] = useState(true);
-
-//   const coverContainerRef = useRef(null);
-
-//   useEffect(() => {
-//     let ctx = gsap.context(() => {
-//       // Animate the cover image container to expand on scroll (same as HeroBanner)
-//       gsap.fromTo(
-//         coverContainerRef.current,
-//         {
-//           width: "60%",
-//           scale: 0.9,
-//           borderRadius: "48px",
-//           opacity: 0.5,
-//         },
-//         {
-//           width: "100%",
-//           scale: 1,
-//           borderRadius: "0px",
-//           opacity: 1,
-//           scrollTrigger: {
-//             trigger: coverContainerRef.current,
-//             start: "top 85%",
-//             end: "top 15%",
-//             scrub: 1,
-//           },
-//         }
-//       );
-//     });
-
-//     return () => ctx.revert();
-//   }, []);
-
-//   return (
-//     <div className={`min-h-screen transition-colors duration-500 ${darkTheme ? 'bg-black text-white' : 'bg-white text-neutral-900'}`}>
-      
-//       {/* Top Navigation Bar */}
-//       <header className="flex items-center justify-between w-full max-w-7xl mx-auto px-6 sm:px-12 py-8 z-20">
-//         <Link href="/" className="font-bold text-2xl tracking-tighter cursor-pointer">
-//           Digital Paaji
-//         </Link>
-
-//         <div className="flex items-center space-x-6">
-//           <button 
-//             onClick={() => setDarkTheme(!darkTheme)}
-//             className={`w-12 h-6 flex items-center rounded-full p-1 transition-colors duration-300 ${darkTheme ? 'bg-white' : 'bg-neutral-900'}`}
-//             aria-label="Toggle Theme"
-//           >
-//             <div className={`bg-neutral-200 w-4 h-4 rounded-full shadow-md transform transition-transform duration-300 ${darkTheme ? 'translate-x-6 bg-neutral-900' : 'translate-x-0'}`} />
-//           </button>
-          
-//           <Link href="/" className="text-sm font-medium hover:opacity-70 transition-opacity">
-//             ← Back Home
-//           </Link>
-//         </div>
-//       </header>
-
-//       {/* Hero Header Section with Staggered Slide-Up Animations */}
-//       <main className="max-w-6xl mx-auto px-6 sm:px-12 py-16 lg:py-24">
-        
-//         {/* Category & Year */}
-//         <div className="flex items-center space-x-4 text-sm uppercase tracking-widest opacity-60 mb-6 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:100ms]">
-//           <span>{project.category}</span>
-//           <span>•</span>
-//           <span>{project.year}</span>
-//         </div>
-
-//         {/* Title with ScrollFloat Animation */}
-//         <div className="mb-8">
-//           <ScrollFloat
-//             animationDuration={1}
-//             ease="back.inOut(2)"
-//             scrollStart="center bottom+=50%"
-//             scrollEnd="bottom bottom-=40%"
-//             stagger={0.03}
-//             textClassName={`text-5xl sm:text-7xl lg:text-9xl font-extrabold tracking-tight ${darkTheme ? 'text-white' : 'text-neutral-900'}`}
-//           >
-//             {project.title}
-//           </ScrollFloat>
-//         </div>
-
-//         {/* Subtitle */}
-//         <p className="text-xl sm:text-2xl font-light opacity-80 max-w-3xl leading-relaxed mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:300ms]">
-//           {project.subtitle}
-//         </p>
-
-//         {/* Project Meta Info Grid */}
-//         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-8 border-y border-neutral-800 mb-16 animate-slide-up opacity-0 [animation-fill-mode:forwards] [animation-delay:400ms]">
-//           <div>
-//             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Client</p>
-//             <p className="text-lg font-medium">{project.client}</p>
-//           </div>
-//           <div>
-//             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Role / Scope</p>
-//             <p className="text-lg font-medium">{project.role}</p>
-//           </div>
-//           <div>
-//             <p className="text-xs uppercase tracking-widest opacity-50 mb-1">Year</p>
-//             <p className="text-lg font-medium">{project.year}</p>
-//           </div>
-//         </div>
-
-//       </main>
-
-//       {/* --- GSAP Scroll Expand Cover Media Section --- */}
-//       <div className="w-full flex justify-center overflow-hidden mb-24">
-//         <div
-//           ref={coverContainerRef}
-//           className="overflow-hidden shadow-2xl aspect-[16/9]"
-//         >
-//           <img src={project.coverImage} alt={project.title} className="w-full h-full object-cover" />
-//         </div>
-//       </div>
-
-//       <main className="max-w-6xl mx-auto px-6 sm:px-12">
-//         {/* Overview & Description Section */}
-//         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
-//           <div className="lg:col-span-5">
-//             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">The Challenge &amp; Solution</h2>
-//           </div>
-//           <div className="lg:col-span-7 space-y-6 text-lg font-light opacity-90 leading-relaxed">
-//             <p>{project.description}</p>
-//             <p>Every interaction was meticulously engineered to provide frictionless engagement while maintaining an unmistakable air of exclusivity and high-end agency execution.</p>
-//           </div>
-//         </div>
-
-//         {/* Gallery Section */}
-//         <div className="space-y-12 mb-24">
-//           {project.gallery.map((imgUrl, idx) => (
-//             <div key={idx} className="w-full aspect-[16/9] rounded-[28px] overflow-hidden shadow-2xl">
-//               <img src={imgUrl} alt={`${project.title} gallery ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
-//             </div>
-//           ))}
-//         </div>
-
-//         {/* Next Project Footer Navigation */}
-//         <div className="border-t border-neutral-800 pt-16 pb-24 text-center">
-//           <p className="text-sm uppercase tracking-widest opacity-50 mb-4">Explore More</p>
-//           <Link href="/" className="text-3xl sm:text-5xl font-bold hover:opacity-70 transition-opacity">
-//             Back to All Works →
-//           </Link>
-//         </div>
-
-//       </main>
-
-//       {/* Keyframe Animation Styles */}
-//       <style jsx global>{`
-//         @keyframes slideUp {
-//           0% {
-//             opacity: 0;
-//             transform: translateY(40px);
-//           }
-//           100% {
-//             opacity: 1;
-//             transform: translateY(0);
-//           }
-//         }
-//         .animate-slide-up {
-//           animation: slideUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-//         }
-//       `}</style>
-//     </div>
-//   );
-// }
