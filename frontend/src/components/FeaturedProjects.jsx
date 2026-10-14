@@ -7,7 +7,7 @@ const projects = [
   {
     title: 'AI Videos',
     slug: 'ai-videos',
-    media: "/Images/portfolio/ai/cover.gif",
+    media: "/Images/portfolio/ai/1.gif",
     category: 'Generative Media & Motion',
     client: 'OpenLabs Global',
     year: '2026',
@@ -23,7 +23,7 @@ const projects = [
   {
     title: 'Reel Creation',
     slug: 'reels',
-    media: '/Images/portfolio/reels/cover.gif',
+    media: '/Images/portfolio/reels/1.webp',
     category: '3D Motion Animation + Reel Creation',
     client: 'Kinetix Studio',
     year: '2025',
@@ -31,7 +31,7 @@ const projects = [
   {
     title: 'Animation',
     slug: 'animation',
-    media: '/Images/portfolio/animation/cover.gif',
+    media: '/Images/animation/2.gif',
     category: '3D Motion Animation + Reel Creation',
     client: 'Kinetix Studio',
     year: '2025',
@@ -69,7 +69,7 @@ export default function FeaturedProjects({ darkTheme }) {
       className={`
         transition-colors
         duration-500
-        ${darkTheme ? 'text-white bg-black' : 'text-neutral-900 bg-white'}
+        ${darkTheme ? 'text-white bg-black' : 'text-neutral-900 bg-[#F6F6F6]'}
       `}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-20 lg:gap-y-24 w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">
@@ -92,7 +92,7 @@ export default function FeaturedProjects({ darkTheme }) {
                 ${
                   darkTheme
                     ? 'bg-[#0A0A0A] ring-1 ring-white/10'
-                    : 'bg-neutral-100 ring-1 ring-black/5'
+                    : 'bg-neutral-100 '
                 }
               `}
             >
@@ -104,12 +104,8 @@ export default function FeaturedProjects({ darkTheme }) {
                   inset-0
                   w-full
                   h-full
-                  object-cover
-                  transition-transform
-                  duration-700
-                  ease-out
-                  group-hover:scale-105
-                "
+                  object-cover object-top
+                  "
               />
             </div>
 

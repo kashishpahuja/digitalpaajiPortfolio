@@ -29,25 +29,11 @@ if (typeof window !== "undefined") {
       gallery: [
 
 
-        {type:"video",url:"https://www.youtube.com/embed/-AQWahFlMNo",thumb:"ns.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/fjmf_U3H79Q",thumb:"dafkahwa.webp"},  
-      {type:"video",url:"https://www.youtube.com/embed/lsEfSeWs8GA", thumb:"dafelaveda.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/OWiuqq-_V5Y",thumb:"bheem.webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/7nkOIT1n5OU",thumb:"ibntaamritsr.webp"},      
-      {type:"video",url:"https://www.youtube.com/embed/E41Rna25L8g",thumb:"motuptlu.webp"},    
+       
       {type:"video",url:"https://www.youtube.com/embed/H-tSTgWOYiY", thumb:"mc1.webp"},
             {type:"video",url:"https://www.youtube.com/embed/xYAO_W4Y1BI",thumb:"ibnta8.webp"},    
       // {type:"video",url:"https://www.youtube.com/embed/oxwJNsLFvls",thumb:"ptiala.webp"},      
-      {type:"video",url:"https://www.youtube.com/embed/M1xdGFTlBPA",thumb:"murgi2.webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/yE3Rf25k_q8", thumb:"mca.webp"},
-      
-       {type:"video",url:"https://www.youtube.com/embed/2RQuq-RmkTs",thumb:"nslogo.webp"},
-      {type:"video",url:"https://www.youtube.com/embed/_JZ9JU5ZP3Y",thumb:"ns.webp"}, 
-      
-      
-       {type:"video",url:"https://www.youtube.com/embed/wT-HrGqnnVA",thumb:"daf.webp"},      
-      {type:"video",url:"https://www.youtube.com/embed/xcTIn1MghFc",thumb:"kc.webp"},    
-      {type:"video",url:"https://www.youtube.com/embed/kZUEBcW3jxU", thumb:"canco.webp"},
+     
       {type:"video",url:"https://www.youtube.com/embed/6vqO1z3BOcg", thumb:"ibnta.webp"},
       // {type:"video",url:"https://www.youtube.com/embed/QzXLG6FpSh0",thumb:".webp"},    
       
