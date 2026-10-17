@@ -9,7 +9,7 @@ export default function Hero({ darkTheme, setDarkTheme }) {
   return (
     <div className={`relative w-full h-[70vh] md:min-h-screen flex flex-col justify-between px-6 sm:px-12 py-6 transition-colors duration-500 ${darkTheme ? 'bg-neutral-950 text-white' : 'bg-[#F6F6F6] text-neutral-900'}`}>
       
-      {/* Top Navbar */}0
+      {/* Top Navbar */}
       <header className="flex items-center justify-between w-full max-w-7xl mx-auto z-20 animate-fade-in">
         {/* Brand Name */}
      <Link href="/" className="flex items-center cursor-pointer">

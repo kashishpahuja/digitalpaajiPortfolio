@@ -7,7 +7,7 @@ const projects = [
   {
     title: 'AI Videos',
     slug: 'ai-videos',
-    media: "/Images/portfolio/ai/1.gif",
+    media: "/Images/portfolio/ai/2.gif",
     category: 'Generative Media & Motion',
     client: 'OpenLabs Global',
     year: '2026',
