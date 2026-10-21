@@ -84,7 +84,7 @@ export default function CustomCursor({ darkTheme = false }) {
         left-0
         top-0
         pointer-events-none
-        z-[9999]
+        z-9999
         rounded-full
         will-change-transform
         ${

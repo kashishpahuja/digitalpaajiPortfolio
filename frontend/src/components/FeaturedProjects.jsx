@@ -69,7 +69,7 @@ export default function FeaturedProjects({ darkTheme }) {
       className={`
         transition-colors
         duration-500
-        ${darkTheme ? 'text-white bg-black' : 'text-neutral-900 bg-[#F6F6F6]'}
+        ${darkTheme ? 'text-white bg-neutral-950/90' : 'text-neutral-900 bg-[#F6F6F6]'}
       `}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-20 lg:gap-y-24 w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">

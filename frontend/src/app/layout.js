@@ -85,8 +85,9 @@ export default function RootLayout({ children }) {
         {/* Full screen Grainient loader that slides up on load */}
         <PageLoader />
         <CustomCursor />
-        {/* Main app content */}
+  
         {children}
+
       </body>
     </html>
   );
