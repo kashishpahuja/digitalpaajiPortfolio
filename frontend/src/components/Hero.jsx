@@ -12,18 +12,24 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       {/* ========================================== */}
       {/* CRUSHED PAPER / CREASED TEXTURE OVERLAY */}
       {/* ========================================== */}
-      <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
-        {/* Subtle SVG & CSS displacement crease lines */}
-        <div 
-          className={`absolute inset-0 opacity-[0.10] transition-opacity duration-500 mix-blend-${darkTheme ? 'screen' : 'multiply'}`}
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.7'/%3E%3C/svg%3E")`,
-            backgroundRepeat: 'repeat'
-          }}
-        />
-        {/* Organic Crumpled Crease Shadows / Highlights */}
-        <div className={`absolute inset-0 opacity-[18] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] ${darkTheme ? 'from-white via-transparent to-black' : 'from-black via-transparent to-white'}`} />
-      </div>
+<div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+  {/* Subtle SVG & CSS displacement crease lines */}
+  <div 
+    className={`absolute inset-0 transition-opacity duration-500 ${
+      darkTheme ? 'opacity-[0.12] mix-blend-screen' : 'opacity-[0.35] mix-blend-multiply'
+    }`}
+    style={{
+      backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.9'/%3E%3C/svg%3E")`,
+      backgroundRepeat: 'repeat'
+    }}
+  />
+  {/* Organic Crumpled Crease Shadows / Highlights */}
+  <div className={`absolute inset-0 ${
+    darkTheme 
+      ? 'opacity-40 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/30 via-transparent to-black' 
+      : 'opacity-30 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-black/20 via-transparent to-white'
+  }`} />
+</div>
 
       {/* Top Navbar */}
       <header className="flex items-center justify-between w-full max-w-7xl mx-auto z-20 animate-fade-in">

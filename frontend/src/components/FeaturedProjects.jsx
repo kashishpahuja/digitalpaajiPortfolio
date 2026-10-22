@@ -66,12 +66,36 @@ export default function FeaturedProjects({ darkTheme }) {
   return (
     <section
       id="work"
-      className={`
+      className={`relative
         transition-colors
         duration-500
-        ${darkTheme ? 'text-white bg-neutral-950/90' : 'text-neutral-900 bg-[#F6F6F6]'}
+        ${darkTheme ? 'text-white bg-neutral-950' : 'text-neutral-900 bg-[#F6F6F6]'}
       `}
     >
+
+      {/* ========================================== */}
+      {/* CRUSHED PAPER / CREASED TEXTURE OVERLAY */}
+      {/* ========================================== */}
+<div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+  {/* Subtle SVG & CSS displacement crease lines */}
+  <div 
+    className={`absolute inset-0 transition-opacity duration-500 ${
+      darkTheme ? 'opacity-[0.12] mix-blend-screen' : 'opacity-[0.35] mix-blend-multiply'
+    }`}
+    style={{
+      backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.9'/%3E%3C/svg%3E")`,
+      backgroundRepeat: 'repeat'
+    }}
+  />
+  {/* Organic Crumpled Crease Shadows / Highlights */}
+  <div className={`absolute inset-0 ${
+    darkTheme 
+      ? 'opacity-40 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/30 via-transparent to-black' 
+      : 'opacity-30 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-black/20 via-transparent to-white'
+  }`} />
+</div>
+
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-20 lg:gap-y-24 w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">
         {projects.map((project) => (
           <Link
