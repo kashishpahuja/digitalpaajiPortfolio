@@ -12,8 +12,7 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       {/* ========================================== */}
       {/* CRUSHED PAPER / CREASED TEXTURE OVERLAY */}
       {/* ========================================== */}
-<div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
-  {/* Subtle SVG & CSS displacement crease lines */}
+{/* <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
   <div 
     className={`absolute inset-0 transition-opacity duration-500 ${
       darkTheme ? 'opacity-[0.12] mix-blend-screen' : 'opacity-[0.35] mix-blend-multiply'
@@ -23,13 +22,12 @@ export default function Hero({ darkTheme, setDarkTheme }) {
       backgroundRepeat: 'repeat'
     }}
   />
-  {/* Organic Crumpled Crease Shadows / Highlights */}
   <div className={`absolute inset-0 ${
     darkTheme 
       ? 'opacity-40 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/30 via-transparent to-black' 
       : 'opacity-30 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-black/20 via-transparent to-white'
   }`} />
-</div>
+</div> */}
 
       {/* Top Navbar */}
       <header className="flex items-center justify-between w-full max-w-7xl mx-auto z-20 animate-fade-in">

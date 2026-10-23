@@ -76,8 +76,7 @@ export default function FeaturedProjects({ darkTheme }) {
       {/* ========================================== */}
       {/* CRUSHED PAPER / CREASED TEXTURE OVERLAY */}
       {/* ========================================== */}
-<div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
-  {/* Subtle SVG & CSS displacement crease lines */}
+{/* <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
   <div 
     className={`absolute inset-0 transition-opacity duration-500 ${
       darkTheme ? 'opacity-[0.12] mix-blend-screen' : 'opacity-[0.35] mix-blend-multiply'
@@ -87,13 +86,12 @@ export default function FeaturedProjects({ darkTheme }) {
       backgroundRepeat: 'repeat'
     }}
   />
-  {/* Organic Crumpled Crease Shadows / Highlights */}
   <div className={`absolute inset-0 ${
     darkTheme 
       ? 'opacity-40 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/30 via-transparent to-black' 
       : 'opacity-30 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-black/20 via-transparent to-white'
   }`} />
-</div>
+</div> */}
 
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-20 lg:gap-y-24 w-full mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 2xl:px-52 py-16 lg:py-24">
